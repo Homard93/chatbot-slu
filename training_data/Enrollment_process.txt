@@ -1,0 +1,22 @@
+"Is there an entrance exam for new applicants in SLU?"
+
+
+
+"What email address could I contact about enrollment process?"
+
+
+"What are the requirements for new applicants in SLU?"
+
+"What are the requirements for existing students in SLU?"
+
+
+"What are the requirements for new applicants in School of Natural Science?"
+
+"What are the requirements for new applicants in SAMCIS?"
+
+
+"What is the email address of Finance Office?"
+	- claims.payment.tuition@slu.edu.ph
+	- finance.ar@slu.edu.ph
+	- claimspayment@slu.edu.ph
+"What are the SLU landline numbers?"
