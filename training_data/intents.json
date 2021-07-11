@@ -5,16 +5,12 @@
       "patterns": [
         "Hi",
         "Hey",
-        "How are you",
-        "Is anyone there?",
         "Hello",
+        "How are you?",
         "Good day"
       ],
       "responses": [
-        "Hey :-)",
-        "Hello, thanks for visiting",
-        "Hi there, what can I do for you?",
-        "Hi there, how can I help?"
+        "Hello, I'm the University Chatbot how can I help?"
       ]
     },
     {
@@ -22,8 +18,7 @@
       "patterns": ["Bye", "See you later", "Goodbye"],
       "responses": [
         "See you later, thanks for visiting",
-        "Have a nice day",
-        "Bye! Come back again soon."
+        "Have a nice day"
       ]
     },
     {
@@ -32,41 +27,48 @@
       "responses": ["Happy to help!", "Any time!", "My pleasure"]
     },
     {
-      "tag": "items",
-      "patterns": [
-        "Which items do you have?",
-        "What kinds of items are there?",
-        "What do you sell?"
-      ],
+      "tag": "email",
+      "patterns": ["What is the email address of Finance Office?"],
       "responses": [
-        "We sell coffee and tea",
-        "We have coffee and tea"
+        "The email address of the Finance Office is<br><a>finance.ar@slu.edu.ph</a>"
       ]
     },
     {
-      "tag": "payments",
-      "patterns": [
-        "Do you take credit cards?",
-        "Do you accept Mastercard?",
-        "Can I pay with Paypal?",
-        "Are you cash only?"
-      ],
-      "responses": [
-        "We accept VISA, Mastercard and Paypal",
-        "We accept most major credit cards, and Paypal"
-      ]
+      "tag": "landline",
+      "patterns": ["What are the SLU landline numbers?"],
+      "responses": ["+(63) (74) 442 3043; 442 2793; 442 2193; 443 2001; 444 8246 to 48 (loc. 279)"]
     },
     {
-      "tag": "delivery",
+      "tag": "course",
+      "patterns": ["What courses do you offer?", "Courses"],
+      "responses": ["We offer Engineering, Business Manangement, Information Technology"]
+    },
+    {
+      "tag": "tuition",
+      "patterns": ["How much is the tuition fee"],
+      "responses": ["What course specifically are you pertaining to?"]
+    },
+    {
+      "tag": "nursingTuition",
       "patterns": [
-        "How long does delivery take?",
-        "How long does shipping take?",
-        "When do I get my delivery?"
+        "Tuition Nursing",
+        "What is the tuition fee for Nursing?",
+        "What is the tuition fee for Nursing?",
+        "How much is the tuition fee for Nursing?",
+        "What is the tuition for fee Nursing?"
       ],
-      "responses": [
-        "Delivery takes 2-4 days",
-        "Shipping takes 2-4 days"
-      ]
+      "responses": ["The tuition fee for Nursing costs around 37,000-41,000 per semester"]
+    },
+    {
+      "tag": "itTuition",
+      "patterns": [
+        "Tuition IT",
+        "What is the tuition fee for IT?",
+        "What is the tuition fee for Information Technology?",
+        "How much is the tuition fee for IT?",
+        "What is the tuition for fee Information Technology?"
+      ],
+      "responses": ["The tuition fee for Information Technology costs around 37,000-41,000 per semester"]
     },
     {
       "tag": "funny",
@@ -78,6 +80,14 @@
       "responses": [
         "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
         "What did the buffalo say when his son left for college? Bison."
+      ]
+    },
+    {
+      "tag": "noanswer",
+      "patterns": [],
+      "responses": [
+        "Sorry I can't understand you.",
+        "I can't find any information about your query."
       ]
     }
   ]

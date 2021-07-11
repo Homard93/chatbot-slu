@@ -3,11 +3,11 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Chatty</title>
+    <title>Chatbot</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="shortcut icon" href="#" />
+    <link rel="shortcut icon" href="https://image.flaticon.com/icons/png/512/4472/4472497.png" />
     <link rel="stylesheet" href="{{ url_for('static', filename='styles/style.css') }}">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -18,7 +18,7 @@
     <section class="msger">
         <header class="msger-header">
             <div class="msger-header-title">
-                </i> Chatty the chatbot {{speech}}</i>
+                </i> Aeron the University Chatbot</i>
             </div>
         </header>
         <main class="msger-chat">
@@ -30,10 +30,10 @@
                         <div class="msg-info-time"></div>
                     </div>
                     <div class="msg-text">
-                        Hi, Welcome to Chatty! Welcome to Saint Louis University, I am here to help you. 😄
+                        Welcome to University Chatbot! I am here to help you.😄
                     </div>
                     <div class="msg-text">
-                        You can ask me anything related to Saint Louis University like courses we offer, enrollment process, and tuition fees.
+                        <br>You can ask me anything related to Saint Louis University like courses we offer, enrollment process, and tuition fees.
                     </div>
                 </div>
             </div>
@@ -41,10 +41,17 @@
         <div>
             <form class="msger-inputarea">
                 <input type="text" class="msger-input" id="textInput" placeholder="Enter your message..." value="{{speech}}">
-                <button type="submit" class="msger-send-btn">Send</button>
-                <button type="button" id="speechButton" class="msger-send-btn" onclick="runSpeechRecognition()">Speech to Text</button>
+                <button type="submit" class="msger-send-btn">Send</button>&nbsp;
+                <!-- <button type="button" id="speechButton" class="msger-send-btn" onclick="runSpeechRecognition()">Speech to Text</button> -->   
+                <button type="button" id="speechButton" class="btn m-left type2" onclick="runSpeechRecognition()">
+                <i class="fa fa-microphone" aria-hidden="true"></i>
             </form>
             
+        </div>
+        <div id="myModal" class="modal">
+              <button id="speech" class="btn1">
+              <div class="pulse-ring"></div>
+              <i class="fa fa-microphone" aria-hidden="true"></i>
         </div>
     </section>
     <!-- partial -->
@@ -96,12 +103,31 @@
     function botResponse(rawText) {
 
         // Bot Response
-        $.get("/get", { msg: rawText }).done(function(data) {
+        $.get("/get", { msg: rawText.toLowerCase() }).done(function(data) {
+            console.log(rawText);
+            console.log(data);
+            const msgText = data;
+            appendMessage(BOT_NAME, BOT_IMG, "left", msgText);
+        });
+
+    }
+
+    function botResponseSpeech(rawText) {
+
+        // Bot Response
+        $.get("/get", { msg: rawText.toLowerCase() }).done(function(data) {
             console.log(rawText);
             console.log(data);
             const msgText = data;
             appendMessage(BOT_NAME, BOT_IMG, "left", msgText);
 
+            let utter = new SpeechSynthesisUtterance();
+            utter.lang = 'en-US';
+            utter.text = msgText.replace(/(<([^>]+)>)/gi, "");;
+            utter.volume = 0.5;
+            utter.rate = .9;
+
+            window.speechSynthesis.speak(utter);
         });
 
     }
@@ -126,13 +152,19 @@
         var SpeechRecognition = SpeechRecognition || webkitSpeechRecognition;
         var recognition = new SpeechRecognition();
 
+        // Get the modal
+        var modal = document.getElementById("myModal");
+        
+
         // This runs when the speech recognition service starts
         recognition.onstart = function() {
-            speechButton.innerHTML = "Listening, Speak..";
+            modal.style.display = "block";
+            // speechButton.innerHTML = "Listening, Speak..";
         };
 
         recognition.onspeechend = function() {
-            speechButton.innerHTML = "Speech To Text";
+            // speechButton.innerHTML = "Speech To Text";
+            modal.style.display = "none";
             recognition.stop();
         }
 
@@ -140,12 +172,13 @@
         recognition.onresult = function(event) {
             var transcript = event.results[0][0].transcript;
             appendMessage(PERSON_NAME, PERSON_IMG, "right", transcript);
-            botResponse(transcript);
+            botResponseSpeech(transcript);
         };
 
         // start recognition
         recognition.start();
     }
+
     </script>
 </body>
 
