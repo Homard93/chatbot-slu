@@ -247,6 +247,97 @@
          "responses":[
             "Bachelor of Science in Management Accounting: 29,000 - 33,000"
          ]
+      },
+      {
+         "tag":"financialmanage",
+         "patterns":[
+            "Financial Management",
+            "what is the tuition for Financial Management?"
+         ],
+         "responses":[
+            "Bachelor of Science in Financial Management: 29,000 - 33,000"
+         ]
+      },
+      {
+         "tag":"marketingmanage",
+         "patterns":[
+            "Tuition Marketing Management",
+            "what is the tuition for Marketing Management?"
+         ],
+         "responses":[
+            "Bachelor of Science in Marketing Management: 30,000 - 34,000"
+         ]
+      },
+      {
+         "tag":"entrep",
+         "patterns":[
+            "Tuition Entrepreneurship",
+            "entrep",
+            "what is the tuition for Entrepreneurship?"
+         ],
+         "responses":[
+            "Bachelor of Science in Entrepreneurship with specialization in Business Analytics: 29,000 - 33,000"
+         ]
+      },
+      {
+         "tag":"tourism",
+         "patterns":[
+            "Tuition tourism",
+            "what is the tuition for tourism management?"
+         ],
+         "responses":[
+            "Bachelor of Science in Tourism Management: 30,000 - 34,000"
+         ]
+      },
+      {
+         "tag":"hospitality ",
+         "patterns":[
+            "Tuition Hospitality ",
+            "what is the tuition for Hospitality management?"
+         ],
+         "responses":[
+            "Bachelor of Science in Hospitality Management: 30,000 - 34,000"
+         ]
+      },
+      {
+         "tag":"comsci",
+         "patterns":[
+            "Tuition Computer Science",
+            "what is the tuition for Computer Science?"
+         ],
+         "responses":[
+            "Bachelor of Science in Computer Science: 39,000 - 42,00"
+         ]
+      },
+      {
+         "tag":"it",
+         "patterns":[
+            "Tuition information Technology",
+            "what is the tuition for information Technology?"
+         ],
+         "responses":[
+            "Bachelor of Science in Information Technology: 36,000 - 39,00"
+         ]
+      },
+      {
+         "tag":"elemeduc",
+         "patterns":[
+            "Tuition Elementary Education",
+            "what is the tuition for Elementary Education?"
+         ],
+         "responses":[
+            "Bachelor of Science in Elementary Education: 28,000 - 32,000"
+         ]
+      },
+      {
+         "tag":"secondeduc",
+         "patterns":[
+            "Tuition Secondary Education",
+            "what is the tuition for Secondary Education?"
+         ],
+         "responses":[
+             "Bachelor of Secondary Education with areas of specialization in <br>English: 24,000 - 28,000<br>Mathematics: 24,000 - 28,000<br>Science: 29,000 - 33,000<br>Social Studies: 24,000 - 28,000"
+         ]
       }
    ]
 }
