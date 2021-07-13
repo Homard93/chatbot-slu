@@ -75,54 +75,54 @@
             "tuition fee"
          ],
          "responses":[
-            "What course specifically are you pertaining to?"
+            "What school specifically are you pertaining to? <br> Schools in SLU: <br> School of Nursing (SON) <br> School of Engineering and Architecture (SEA) <br> School of Natural Sciences (SNS) <br> School of Medicine (SOM) <br> School of Accountancy, Management, Computing and Information Studies (SAMCIS) <br> School of Teacher Education and Liberal Arts (STELA) <br> School of Law"
          ]
       },
       {
-         "tag":"archi",
+         "tag":"SON",
          "patterns":[
-            "Tuition Architecture",
-            "what is the tuition for Architecture?"
+            "School of Nursing Tuition Fee",
+            "what is the tuition fee for School of Nursing?"
          ],
          "responses":[
-            "Bachelor of Science in Architecture: 29,000 - 33,000"
+            "Bachelor of Science in Nursing: ₱37,000 - ₱41,000"
          ]
       },
       {
-         "tag":"chemeng",
+         "tag":"SEA",
          "patterns":[
-            "Tuition Chemical Engineering",
-            "what is the tuition for Chemical Engineering"
+            "Tuition fee School of Engineering and Architecture",
+            "What are the tuition fee for School of Engineering and Architecture"
          ],
          "responses":[
-            "Bachelor of Science in Chemical Engineering: 24,000 - 28,000"
+            "Bachelor of Science in Achitecture: ₱29,000 - ₱33,000 <br> Bachelor of Science in Chemical Engineering: ₱24,000 - ₱28,000 <br> Bachelor of Science in Civil Engineering: ₱32,000 - ₱36,000 <br> Bachelor of Science in Electrical Engineering: ₱29,000 - ₱33,000 <br> Bachelor of Science in Electronices Engineering: ₱27,000 - ₱31,000 <br> Bachelor of Science in Geodetic Engineering: ₱29,000 - ₱33,000 <br> Bachelor of Science in Industrial Engineering: ₱24,000 - ₱28,000 <br> Bachelor of Science in Mechanical Engineering: ₱26,000 - ₱30,000 <br> Bachelor of Science in Mechatronics Engineering: ₱26,000 - ₱30,000 <br> Bachelor of Science in Mining Engineering: ₱27,000 - ₱31,000"
          ]
       },
       {
-         "tag":"civileng",
+         "tag":"SNS",
          "patterns":[
-            "Tuition Civil Engineering",
-            "what is the tuition for Civil Engineering?"
+            "Tuition fee School of Natural Sciences",
+            "what is the tuition fee for School of Natural Sciences?"
          ],
          "responses":[
-            "Bachelor of Science in Civil Engineering: 32,000 - 36,000"
+            "Bachelor of Science in Biology: ₱28,000 - ₱32,000 <br> Bachelor of Science in Medical Laboratory Science: ₱28,000 - ₱32,000 <br> Bachelor of Science in Pharmacy ₱32,000 - ₱36,000 <br> Bachelor of Science in Radiologic Technology: ₱28,000 - ₱32,000"
          ]
       },
       {
-         "tag":"electricaleng",
+         "tag":"SOM",
          "patterns":[
-            "Tuition Electrical Engineering",
-            "what is the tuition for Electrical Engineering?"
+            "Tuition fee for School of  Medicine",
+            "what is the tuition for School of Medicine?"
          ],
          "responses":[
-            "Bachelor of Science in Electrical Engineering: 29,000 - 33,000"
+            "Bachelor"
          ]
       },
       {
-         "tag":"electroniceseng",
+         "tag":"SAMCIS",
          "patterns":[
-            "Tuition Electronices Engineering",
-            "what is the tuition for Electronices Engineering?"
+            "Tuition fee for SAMCIS",
+            "what is the tuition for School of Accountancy, Management, Computing and Information Studies?"
          ],
          "responses":[
             "Bachelor of Science in Electronices Engineerin: 27,000 - 31,000"
