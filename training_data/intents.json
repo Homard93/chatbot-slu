@@ -75,77 +75,77 @@
             "tuition fee"
          ],
          "responses":[
-            "What course specifically are you pertaining to?"
+            "What school specifically are you pertaining to? <br> Schools in SLU: <br> School of Nursing (SON) <br> School of Engineering and Architecture (SEA) <br> School of Natural Sciences (SNS) <br> School of Medicine (SOM) <br> School of Accountancy, Management, Computing and Information Studies (SAMCIS) <br> School of Teacher Education and Liberal Arts (STELA) <br> School of Law (SOL)"
          ]
       },
       {
-         "tag":"archi",
+         "tag":"SON",
          "patterns":[
-            "Tuition Architecture",
-            "what is the tuition for Architecture?"
+            "Tuition Fee for SON",
+            "what is the tuition fee for School of Nursing?"
          ],
          "responses":[
-            "Bachelor of Science in Architecture: 29,000 - 33,000"
+            "Bachelor of Science in Nursing: ₱37,000 - ₱41,000"
          ]
       },
       {
-         "tag":"chemeng",
+         "tag":"SEA",
          "patterns":[
-            "Tuition Chemical Engineering",
-            "what is the tuition for Chemical Engineering"
+            "Tuition fee for SEA",
+            "What are the tuition fee for School of Engineering and Architecture"
          ],
          "responses":[
-            "Bachelor of Science in Chemical Engineering: 24,000 - 28,000"
+            "Bachelor of Science in Achitecture: ₱29,000 - ₱33,000 <br> Bachelor of Science in Chemical Engineering: ₱24,000 - ₱28,000 <br> Bachelor of Science in Civil Engineering: ₱32,000 - ₱36,000 <br> Bachelor of Science in Electrical Engineering: ₱29,000 - ₱33,000 <br> Bachelor of Science in Electronices Engineering: ₱27,000 - ₱31,000 <br> Bachelor of Science in Geodetic Engineering: ₱29,000 - ₱33,000 <br> Bachelor of Science in Industrial Engineering: ₱24,000 - ₱28,000 <br> Bachelor of Science in Mechanical Engineering: ₱26,000 - ₱30,000 <br> Bachelor of Science in Mechatronics Engineering: ₱26,000 - ₱30,000 <br> Bachelor of Science in Mining Engineering: ₱27,000 - ₱31,000"
          ]
       },
       {
-         "tag":"civileng",
+         "tag":"SNS",
          "patterns":[
-            "Tuition Civil Engineering",
-            "what is the tuition for Civil Engineering?"
+            "Tuition fee SNS",
+            "what is the tuition fee for School of Natural Sciences?"
          ],
          "responses":[
-            "Bachelor of Science in Civil Engineering: 32,000 - 36,000"
+            "Bachelor of Science in Biology: ₱28,000 - ₱32,000 <br> Bachelor of Science in Medical Laboratory Science: ₱28,000 - ₱32,000 <br> Bachelor of Science in Pharmacy ₱32,000 - ₱36,000 <br> Bachelor of Science in Radiologic Technology: ₱28,000 - ₱32,000"
          ]
       },
       {
-         "tag":"electricaleng",
+         "tag":"SOM",
          "patterns":[
-            "Tuition Electrical Engineering",
-            "what is the tuition for Electrical Engineering?"
+            "Tuition fee for SOM",
+            "what is the tuition for School of Medicine?"
          ],
          "responses":[
-            "Bachelor of Science in Electrical Engineering: 29,000 - 33,000"
+            "Bachelor"
          ]
       },
       {
-         "tag":"electroniceseng",
+         "tag":"SAMCIS",
          "patterns":[
-            "Tuition Electronices Engineering",
-            "what is the tuition for Electronices Engineering?"
+            "Tuition fee for SAMCIS",
+            "what is the tuition for School of Accountancy, Management, Computing and Information Studies?"
          ],
          "responses":[
-            "Bachelor of Science in Electronices Engineerin: 27,000 - 31,000"
+            "Bachelor of Science in Accountancy: ₱29,000 - ₱33,000 <br> Bachelor of Science in Management Accounting: ₱29,000 - ₱33,000 <br> Bachelor of Science in Business Administration major in: <br> Financial Management with specialization in Business Analytics: ₱29,000 - ₱33,000 <br> Marketing Management with specialization in Business Analytics: ₱30,000 - ₱34,000 <br> Bachelor of Science in Entrepreneurship with specialization in Business Analytics: ₱29,000 - ₱33,000 <br> Bachelor of Science in Tourism Management: ₱30,000 - ₱34,000 <br> Bachelor of Science in Hospitality Management: ₱30,000 - ₱34,000 <br> Bachelor of Science in Computer Science: ₱39,000 - ₱42,000 <br> Bachelor of Science in Information Technology: ₱36,000 - ₱39,000"
          ]
       },
       {
-         "tag":"geodeticeng",
+         "tag":"STELA",
          "patterns":[
-            "Tuition Geodetic Engineering",
-            "what is the tuition for Geodetic Engineering?"
+            "Tuition fee for STELA",
+            "What is the tuition fee for School of  of Teacher Education and Liberal Arts?"
          ],
          "responses":[
-            "Bachelor of Science in Geodetic Engineering: 29,000 - 33,000"
+            "Bachelor of Elementary Education: ₱28,000 - ₱32,000 <br> Bachelor of Secondary Education with areas of specialization in:<br> English: ₱24,000 - ₱28,000 <br> Mathematics: ₱24,000 - ₱28,000 <br> Science: ₱29,000 - ₱33,000 <br> Social Studies: ₱24,000 - ₱28,000 <br> Bachelor of Physical Education: ₱26,000 - ₱30,000 <br> Certificate in Teaching: ₱28,000 - ₱32,000 <br> Bachelor of Arts in Communication: ₱26,000 - ₱30,000 <br> Bachelor of Arts in Philosophy: ₱28,000 - ₱32,000 <br> Bachelor of Arts in Political Science: ₱26,000 - ₱30,000 <br> Bachelor of Science in Psychology: ₱29,000 - ₱33,000 <br> Bachelor of Science in Social Work: ₱24,000 - ₱28,000"
          ]
       },
       {
-         "tag":"industrialeng",
+         "tag":"SOL",
          "patterns":[
-            "Tuition Industrial Engineering",
-            "what is the tuition for Industrial Engineering?"
+            "Tuition fee for SOL",
+            "what is the tuition for School of Law?"
          ],
          "responses":[
-            "Bachelor of Science in Industrial Engineering: 24,000 - 28,000"
+            "Bachelor of Laws:"
          ]
       },
       {
@@ -158,186 +158,5 @@
             "Bachelor of Science in Mechanical Engineering: 26,000 - 30,000"
          ]
       },
-      {
-         "tag":"mechatornicseng",
-         "patterns":[
-            "Tuition Mechatronics Engineering",
-            "what is the tuition for Mechatronics Engineering?"
-         ],
-         "responses":[
-            "Bachelor of Science in Mechatronics Engineering: 26,000 - 30,000"
-         ]
-      },
-      {
-         "tag":"miningeng",
-         "patterns":[
-            "Tuition Mining Engineering",
-            "what is the tuition for Mining Engineering?"
-         ],
-         "responses":[
-            "Bachelor of Science in Mining Engineering: 27,000 - 31,000"
-         ]
-      },
-      {
-         "tag":"electroniceseng",
-         "patterns":[
-            "Tuition Electronices Engineering",
-            "what is the tuition for Electronices Engineering?"
-         ],
-         "responses":[
-            "Bachelor of Science in Nursing: 27,000 - 31,000"
-         ]
-      },
-      {
-         "tag":"bio",
-         "patterns":[
-            "Tuition Biology",
-            "what is the tuition for Biology?"
-         ],
-         "responses":[
-            "Bachelor of Science in Biology: 28,000 - 32,000"
-         ]
-      },
-      {
-         "tag":"medlab",
-         "patterns":[
-            "Tuition Medical Laboratory Science",
-            "what is the tuition for Medical Laboratory Science?"
-         ],
-         "responses":[
-            "Bachelor of Science in Medical Laboratory Science?: 28,000 - 32,000"
-         ]
-      },
-      {
-         "tag":"pharm",
-         "patterns":[
-            "Tuition Pharmacy",
-            "what is the tuition for Pharmacy?"
-         ],
-         "responses":[
-            "Bachelor of Science in Pharmacy: 32,000 - 36,000"
-         ]
-      },
-      {
-         "tag":"radtech",
-         "patterns":[
-            "Tuition Radiologic Technology",
-            "what is the tuition for Radiologic Technology?"
-         ],
-         "responses":[
-            "Bachelor of Science in Radiologic Technology: 28,000 - 32,000"
-         ]
-      },
-      {
-         "tag":"accountancy",
-         "patterns":[
-            "Tuition Accountancy",
-            "what is the tuition for Accountancy?"
-         ],
-         "responses":[
-            "Bachelor of Science in Accountancy: 29,000 - 33,000"
-         ]
-      },
-      {
-         "tag":"management",
-         "patterns":[
-            "Tuition Management Accounting",
-            "what is the tuition for Management Accounting?"
-         ],
-         "responses":[
-            "Bachelor of Science in Management Accounting: 29,000 - 33,000"
-         ]
-      },
-      {
-         "tag":"financialmanage",
-         "patterns":[
-            "Financial Management",
-            "what is the tuition for Financial Management?"
-         ],
-         "responses":[
-            "Bachelor of Science in Financial Management: 29,000 - 33,000"
-         ]
-      },
-      {
-         "tag":"marketingmanage",
-         "patterns":[
-            "Tuition Marketing Management",
-            "what is the tuition for Marketing Management?"
-         ],
-         "responses":[
-            "Bachelor of Science in Marketing Management: 30,000 - 34,000"
-         ]
-      },
-      {
-         "tag":"entrep",
-         "patterns":[
-            "Tuition Entrepreneurship",
-            "entrep",
-            "what is the tuition for Entrepreneurship?"
-         ],
-         "responses":[
-            "Bachelor of Science in Entrepreneurship with specialization in Business Analytics: 29,000 - 33,000"
-         ]
-      },
-      {
-         "tag":"tourism",
-         "patterns":[
-            "Tuition tourism",
-            "what is the tuition for tourism management?"
-         ],
-         "responses":[
-            "Bachelor of Science in Tourism Management: 30,000 - 34,000"
-         ]
-      },
-      {
-         "tag":"hospitality ",
-         "patterns":[
-            "Tuition Hospitality ",
-            "what is the tuition for Hospitality management?"
-         ],
-         "responses":[
-            "Bachelor of Science in Hospitality Management: 30,000 - 34,000"
-         ]
-      },
-      {
-         "tag":"comsci",
-         "patterns":[
-            "Tuition Computer Science",
-            "what is the tuition for Computer Science?"
-         ],
-         "responses":[
-            "Bachelor of Science in Computer Science: 39,000 - 42,00"
-         ]
-      },
-      {
-         "tag":"it",
-         "patterns":[
-            "Tuition information Technology",
-            "what is the tuition for information Technology?"
-         ],
-         "responses":[
-            "Bachelor of Science in Information Technology: 36,000 - 39,00"
-         ]
-      },
-      {
-         "tag":"elemeduc",
-         "patterns":[
-            "Tuition Elementary Education",
-            "what is the tuition for Elementary Education?"
-         ],
-         "responses":[
-            "Bachelor of Science in Elementary Education: 28,000 - 32,000"
-         ]
-      },
-      {
-         "tag":"secondeduc",
-         "patterns":[
-            "Tuition Secondary Education",
-            "what is the tuition for Secondary Education?"
-         ],
-         "responses":[
-             "Bachelor of Secondary Education with areas of specialization in <br>English: 24,000 - 28,000<br>Mathematics: 24,000 - 28,000<br>Science: 29,000 - 33,000<br>Social Studies: 24,000 - 28,000"
-         ]
-      }
    ]
 }
