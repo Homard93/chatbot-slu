@@ -43,7 +43,7 @@
             "What is the email address of Finance Office?"
          ],
          "responses":[
-            "The email address of the Finance Office is<br><a>finance.ar@slu.edu.ph</a>"
+            "The email address of the Finance Office is<br><a>finance.ar@slu.edu.ph</a> <br> For online payments please email your reciept on this email: <br> <a>claims.payment.tuition@slu.edu.ph</a> <br> <a>finance.ar@slu.edu.ph</a><br> <a>claimspayment@slu.edu.ph</a>"
          ]
       },
       {
@@ -158,5 +158,25 @@
             "Bachelor of Science in Mechanical Engineering: 26,000 - 30,000"
          ]
       },
+      {
+         "tag":"EntranceExam",
+         "patterns":[
+            "Is there an entrance exam for new applicants in SLU?",
+            "Entrance exam for new applicants"
+         ],
+         "responses":[
+            "SLU College Entrance Examination For Incoming Freshmen for more information go to <a>https://www.slu.edu.ph/admissionfreshmen-application-guidelines/</a>"
+         ] 
+      }, 
+      {
+          "tag":"RetakeEntranceExam",
+         "patterns":[
+            "What if I failed to the SLU Entrance Examination, could I retake it?",
+            " Retake of Entrance Exam"
+         ],
+         "responses":[
+            "Unfortunately, No"
+         ]
+      }
    ]
 }
