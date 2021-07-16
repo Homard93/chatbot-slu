@@ -179,14 +179,34 @@
          ]
       },
       {
-         "tag":"payment",
+         "tag":"Payment",
          "patterns":[
-            "pay",
+            "Pay",
             "How will we pay for the tuition?",
             "What is the mode of payment?"
          ],
          "responses":[
-            "Are you currently enrolled in SLU? If yes, you can use your portal to pay for tuition using dragonpay or apply for an installment using bukas and if not, you must first apply for the entrance exam of SLU by visiting the Main Campus." 
+            "Are you currently enrolled in SLU?" 
+         ]
+      },
+      {
+         "tag":"YeQuestion",
+         "patterns":[
+            "Yes",
+            "Yes, I am currently enrolled."
+         ],
+         "responses":[
+            "Login to your portal then go to statement of accounts then look for dragonpay or apply for an installment using bukas" 
+         ]
+      },
+      {
+         "tag":"NoQuestion",
+         "patterns":[
+            "No",
+            "No, I am not yet enrolled."
+         ],
+         "responses":[
+            "You must first apply for an enrollment in SLU and pass the entrance exam. You can do this by visiting the Main Campus during their schedule of enrollment." 
          ]
       }
    ]
