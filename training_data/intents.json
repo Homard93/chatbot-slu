@@ -178,6 +178,96 @@
             "Unfortunately, No"
          ]
       },
+       {
+          "tag":"MinGrade",
+         "patterns":[
+            "Are there minimum required grade to take the entrance examination?",
+            " Minimum grade for entrance examination of SLU"
+         ],
+         "responses":[
+            "Please visit this link for more information <a>https://www.slu.edu.ph/procedure-for-the-online-application-for-admission-of-new-students-for-the-2nd-semester-of-ay-2020-2021-as-of-january-04-2021/</a>"
+         ]
+      },
+       {
+          "tag":"SLUScholarship",
+         "patterns":[
+            "Are there available scholarship offered by SLU",
+            " Scholarship offered by SLU"
+         ],
+         "responses":[
+            "Please visit this link for more information <a>https://www.slu.edu.ph/procedure-for-the-online-application-for-admission-of-new-students-for-the-2nd-semester-of-ay-2020-2021-as-of-january-04-2021/</a>"
+         ]
+      },
+      {
+          "tag":"EnrollmentSOM",
+         "patterns":[
+            "What are the process for School of Medicine Application?",
+            "What is enrollment Process for School of Medicine?",
+            "Enrollment process for SOM"
+         ],
+         "responses":[
+            "Please visit this link for more information: <a>https://www.slu.edu.ph/school-of-medicine-application-for-admission-ay-2021-2022/</a>"
+         ]
+      },
+      {
+          "tag":"EmailEnrollment",
+         "patterns":[
+            "What email address could I contact about enrollment process?",
+            "Email address for Enrollment Process"
+         ],
+         "responses":[
+            "Please contact this email address: admissions@slu.edu.ph"
+         ]
+      },
+      {
+          "tag":"ApplicantsRequirements",
+         "patterns":[
+            "What are the requirements for new applicants in SLU?",
+            " Requirements for Freshmen"
+         ],
+         "responses":[
+            "Click the link for more information <a>https://www.slu.edu.ph/admission/freshmen-application-guidelines/</a> and fill up the form here: <a>https://i2.slu.edu.ph/newapplication/apply.jsp</a>"
+         ]
+      },
+       {
+          "tag":"OldStudentRequirements",
+         "patterns":[
+            "What are the requirements for existing students in SLU?",
+            "What are the Requirements for Old Student who will enroll?"
+         ],
+         "responses":[
+            "Go to your slu portal then click the (Enrollment) on the navigation bar. There are steps and instructions there that you need to follow for your enrollment."
+         ]
+      },
+      {
+          "tag":"EmailAddFinance",
+         "patterns":[
+            "What is the email address of Finance Office?",
+         ],
+         "responses":[
+            "Finance Office Email Address: <br>claims.payment.tuition@slu.edu.ph<br>finance.ar@slu.edu.ph<br>claimspayment@slu.edu.ph"
+         ]
+      },
+      {
+          "tag":"SLULandline",
+         "patterns":[
+            "What are the SLU landline numbers?",
+            "available SLU landline numbers"
+         ],
+         "responses":[
+            " SLU Landline Number: +(63) (74) 442 3043; 442 2793; 442 2193; 443 2001; 444 8246 to 48 (loc. 279)"
+         ]
+      },
+       {
+          "tag":"DeanOffice",
+         "patterns":[
+            "How can I contact Dean's Office",
+            "What are the Email address of the Dean's Office"
+         ],
+         "responses":[
+            "SAMCIS: samcisdean@slu.edu.ph <br> SEA: sasdean@slu.edu.ph<br> SOL: sol.admission@slu.edu.ph<br> SOM: somdean@slu.edu.ph<br> SON: sondean@slu.edu.ph<br> SNS: snsdean@slu.edu.ph<br> STELA: steladean@slu.edu.ph"
+         ]
+      },
       {
          "tag":"payment",
          "patterns":[
@@ -189,5 +279,7 @@
             "Are you currently enrolled in SLU? If yes, you can use your portal to pay for tuition using dragonpay or apply for an installment using bukas and if not, you must first apply for the entrance exam of SLU by visiting the Main Campus." 
          ]
       }
+
+
    ]
 }
