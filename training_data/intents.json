@@ -242,7 +242,7 @@
       {
           "tag":"EmailAddFinance",
          "patterns":[
-            "What is the email address of Finance Office?",
+            "What is the email address of Finance Office?"
          ],
          "responses":[
             "Finance Office Email Address: <br>claims.payment.tuition@slu.edu.ph<br>finance.ar@slu.edu.ph<br>claimspayment@slu.edu.ph"
