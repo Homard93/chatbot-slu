@@ -184,7 +184,10 @@
          "tag":"EntranceExam",
          "patterns":[
             "Is there an entrance exam for new applicants in SLU?",
-            "Entrance exam for new applicants"
+            "Entrance exam for new applicants",
+            "Exam for incoming freshies",
+            "Entrance exam for freshmen",
+            "Entrance exam"
          ],
          "responses":[
             "SLU College Entrance Examination For Incoming Freshmen for more information go to <a>https://www.slu.edu.ph/admissionfreshmen-application-guidelines/</a>"
@@ -194,7 +197,7 @@
           "tag":"RetakeEntranceExam",
          "patterns":[
             "What if I failed to the SLU Entrance Examination, could I retake it?",
-            " Retake of Entrance Exam"
+            "Retake of Entrance Exam"
          ],
          "responses":[
             "Unfortunately, No"
@@ -204,7 +207,8 @@
           "tag":"MinGrade",
          "patterns":[
             "Is there a minimum required grade to take the entrance examination?",
-            " Minimum grade for entrance examination of SLU"
+            "Minimum grade for entrance examination of SLU",
+            "Passing grade for the entrance exam"
          ],
          "responses":[
             "Please visit this link for more information <a>https://www.slu.edu.ph/procedure-for-the-online-application-for-admission-of-new-students-for-the-2nd-semester-of-ay-2020-2021-as-of-january-04-2021/</a>"
@@ -214,7 +218,9 @@
           "tag":"SLUScholarship",
          "patterns":[
             "Are there available scholarship offered by SLU",
-            "Scholarship offered by SLU"
+            "Scholarship offered by SLU",
+            "Procedure in applying scholarship",
+            "Scholarship"
          ],
          "responses":[
             "Please visit this link for more information <a>https://www.slu.edu.ph/procedure-for-the-online-application-for-admission-of-new-students-for-the-2nd-semester-of-ay-2020-2021-as-of-january-04-2021/</a>"
@@ -299,7 +305,8 @@
          "patterns":[
             "Pay",
             "How will we pay for the tuition?",
-            "What is the mode of payment?"
+            "What is the mode of payment?",
+            "Process of payments"
          ],
          "responses":[
             "Are you currently enrolled in SLU?" 
