@@ -203,7 +203,7 @@
        {
           "tag":"MinGrade",
          "patterns":[
-            "Are there minimum required grade to take the entrance examination?",
+            "Is there a minimum required grade to take the entrance examination?",
             " Minimum grade for entrance examination of SLU"
          ],
          "responses":[
