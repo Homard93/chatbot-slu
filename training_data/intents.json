@@ -40,7 +40,9 @@
       {
          "tag":"email",
          "patterns":[
-            "What is the email address of Finance Office?"
+            "What is the email address of Finance Office?",
+            "Finance Office email address",
+            "Email address Finance Office"
          ],
          "responses":[
             "The email address of the Finance Office is<br><a>finance.ar@slu.edu.ph</a> <br> For online payments please email your reciept on this email: <br> <a>claims.payment.tuition@slu.edu.ph</a> <br> <a>finance.ar@slu.edu.ph</a><br> <a>claimspayment@slu.edu.ph</a>"
@@ -49,7 +51,8 @@
       {
          "tag":"landline",
          "patterns":[
-            "What are the SLU landline numbers?"
+            "What are the SLU landline numbers?",
+            "SLU landline numbers"
          ],
          "responses":[
             "+(63) (74) 442 3043; 442 2793; 442 2193; 443 2001; 444 8246 to 48 (loc. 279)"
