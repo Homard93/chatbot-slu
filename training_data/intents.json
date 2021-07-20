@@ -341,7 +341,16 @@
             "Available subects in mechanical engineering"
          ],
          "responses":[
-            "You can view curiculum checklist for Banchelor of Science in Mechanical Engineering by visiting this drive, https://drive.google.com/drive/folders/1Ero3GKvdfh5K20hK06vS3NLcXFpPWElJ?usp=sharing."
+            "You can view curiculum checklist for Banchelor of Science in Mechanical Engineering by visiting this drive, <a>https://drive.google.com/drive/folders/1Ero3GKvdfh5K20hK06vS3NLcXFpPWElJ?usp=sharing.</a>"
+         ]
+      },
+      {
+         "tag":"ChecklistBSBIO",
+         "patterns":[
+            "Subjects to take in Mechanical Engineering",
+            "Biology subjects",
+            "Course description in bs biology",
+            "Available subects in biology"
          ]
       }
 
