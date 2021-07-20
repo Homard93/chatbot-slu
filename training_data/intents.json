@@ -331,6 +331,18 @@
          "responses":[
             "You must first apply for an enrollment in SLU and pass the entrance exam. You can do this by visiting this website, https://i2.slu.edu.ph/newapplication/. Fill in the enrollment form and wait for you scheduled visit at the Main Campus, Bonificatio Street, Baguio City." 
          ]
+      },
+      {
+         "tag":"ChecklistBSME",
+         "patterns":[
+            "Subjects to take in Mechanical Engineering",
+            "Mechanical Engineer subjects",
+            "Course description in Mechanical engineering",
+            "Available subects in mechanical engineering"
+         ],
+         "responses":[
+            "You can view curiculum checklist for Banchelor of Science in Mechanical Engineering by visiting this drive, https://drive.google.com/drive/folders/1Ero3GKvdfh5K20hK06vS3NLcXFpPWElJ?usp=sharing."
+         ]
       }
 
 
