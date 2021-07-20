@@ -41,8 +41,12 @@
          "tag":"email",
          "patterns":[
             "What is the email address of Finance Office?",
+            "What are the email address of Finance Office?",
+            "Does finance have an email address?",
             "Finance Office email address",
-            "Email address Finance Office"
+            "Email address Finance Office",
+            "Finance Email",
+            "Email Finance"
          ],
          "responses":[
             "The email address of the Finance Office is<br><a>finance.ar@slu.edu.ph</a> <br> For online payments please email your reciept on this email: <br> <a>claims.payment.tuition@slu.edu.ph</a> <br> <a>finance.ar@slu.edu.ph</a><br> <a>claimspayment@slu.edu.ph</a>"
@@ -52,7 +56,11 @@
          "tag":"landline",
          "patterns":[
             "What are the SLU landline numbers?",
-            "SLU landline numbers"
+            "SLU landline numbers",
+            "SLU hotline",
+            "SLU number",
+            "SLU contact number",
+            "Contact SLU"
          ],
          "responses":[
             "+(63) (74) 442 3043; 442 2793; 442 2193; 443 2001; 444 8246 to 48 (loc. 279)"
@@ -75,7 +83,9 @@
          "patterns":[
             "How much is the tuition fee",
             "Tuition",
-            "tuition fee"
+            "tuition fee",
+            "SLU Tuitions",
+            "School tuition fee"
          ],
          "responses":[
             "What school specifically are you pertaining to? <br> Schools in SLU: <br> School of Nursing (SON) <br> School of Engineering and Architecture (SEA) <br> School of Natural Sciences (SNS) <br> School of Medicine (SOM) <br> School of Accountancy, Management, Computing and Information Studies (SAMCIS) <br> School of Teacher Education and Liberal Arts (STELA) <br> School of Law (SOL)"
@@ -89,7 +99,11 @@
             "SON tuition",
             "Tuition SON",
             "Nursing Tuition",
-            "Tuition Nursing"
+            "Tuition Nursing",
+            "School of Nursing Tuition Fee",
+            "Tuition Fee of Nursing",
+            "Nursing Fee",
+            "SLU Nursing Tuition"
 
          ],
          "responses":[
@@ -102,7 +116,11 @@
             "Tuition fee for SEA",
             "What are the tuition fee for School of Engineering and Architecture",
             "SEA tuition",
-            "Tuition SEA"
+            "Tuition SEA",
+            "Engineering Tuition fee",
+            "School of Engineering tuition",
+            "Tuition Engineering",
+            "Engr Tuition Fee"
 
          ],
          "responses":[
@@ -115,7 +133,10 @@
             "Tuition fee SNS",
             "what is the tuition fee for School of Natural Sciences?",
             "SNS tuition",
-            "Tuition SNS"
+            "Tuition SNS",
+            "NatSci Tuition Fee",
+            "NatSci Tuition",
+            "Tuition NatSci"
          ],
          "responses":[
             "Bachelor of Science in Biology: ₱28,000 - ₱32,000 <br> Bachelor of Science in Medical Laboratory Science: ₱28,000 - ₱32,000 <br> Bachelor of Science in Pharmacy ₱32,000 - ₱36,000 <br> Bachelor of Science in Radiologic Technology: ₱28,000 - ₱32,000"
@@ -127,7 +148,9 @@
             "Tuition fee for SOM",
             "what is the tuition for School of Medicine?",
             "SOM tuition",
-            "Tuition SOM"
+            "Tuition SOM",
+            "Medicine Tuition Fee"
+            
          ],
          "responses":[
             "₱25,000 - ₱30,000"
@@ -139,7 +162,12 @@
             "Tuition fee for SAMCIS",
             "what is the tuition for School of Accountancy, Management, Computing and Information Studies?",
             "SAMCIS tuition",
-            "Tuition SAMCIS"
+            "Tuition SAMCIS",
+            "Tuition IT/CS",
+            "IT/CS tuition fee",
+            "Accountancy tuition fee",
+            "Tuition fee for accountancy",
+
          ],
          "responses":[
             "Bachelor of Science in Accountancy: ₱29,000 - ₱33,000 <br> Bachelor of Science in Management Accounting: ₱29,000 - ₱33,000 <br> Bachelor of Science in Business Administration major in: <br> Financial Management with specialization in Business Analytics: ₱29,000 - ₱33,000 <br> Marketing Management with specialization in Business Analytics: ₱30,000 - ₱34,000 <br> Bachelor of Science in Entrepreneurship with specialization in Business Analytics: ₱29,000 - ₱33,000 <br> Bachelor of Science in Tourism Management: ₱30,000 - ₱34,000 <br> Bachelor of Science in Hospitality Management: ₱30,000 - ₱34,000 <br> Bachelor of Science in Computer Science: ₱39,000 - ₱42,000 <br> Bachelor of Science in Information Technology: ₱36,000 - ₱39,000"
@@ -187,7 +215,9 @@
             "Entrance exam for new applicants",
             "Exam for incoming freshies",
             "Entrance exam for freshmen",
-            "Entrance exam"
+            "Entrance exam",
+            "SLUCEE",
+            "SLU entrance exam"
          ],
          "responses":[
             "SLU College Entrance Examination For Incoming Freshmen for more information go to <a>https://www.slu.edu.ph/admissionfreshmen-application-guidelines/</a>"
@@ -441,7 +471,38 @@
             "What specifically curiculum checklist are you looking for?",
             "What course are you looking for?"
          ]    
+      },
+      {
+         "tag":"Checklist",
+         "patterns":[
+            "Do you have a courses checklist?",
+            "Checklist",
+            "Curiculim checklist",
+            "What are the curiculum checklist?",
+            "Do you have a curiculum checklist?",
+            "What are your curiculum checklist"
+         ],
+         "responses":[
+            "What specifically curiculum checklist are you looking for?",
+            "What course are you looking for?"
+         ]
+      },
+      {
+         "tag":"default",
+         "patterns":[
+            "What is",
+            "What are",
+            "What do",
+            "Do you",
+            "What does",
+            "The",
+            " "
+         ],
+         "responses":[
+            "Sorry, I can't understand your query."
+         ]
       }
+
 
 
    ]
