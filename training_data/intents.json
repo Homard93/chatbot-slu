@@ -341,7 +341,7 @@
             "Available subects in mechanical engineering"
          ],
          "responses":[
-            "You can view curiculum checklist for Banchelor of Science in Mechanical Engineering by visiting this drive, <a href="drive.google.com/drive/folders/1Ero3GKvdfh5K20hK06vS3NLcXFpPWElJ?usp=sharing"> click here..</a>"
+            "You can view curiculum checklist for Banchelor of Science in Mechanical Engineering by visiting this drive, <a href='https://drive.google.com/drive/folders/1Ero3GKvdfh5K20hK06vS3NLcXFpPWElJ?usp=sharing'> click here...</a>"
          ]
       },
       {
@@ -353,7 +353,7 @@
             "Available subects in biology"
          ],
          "responses":[
-            "You can view curiculum checklist for Banchelor of Science in Biology by visiting this drive, <a>https://drive.google.com/drive/folders/1sKtis1zU8p6t5zXFphBa6FkPIppc0ZMl?usp=sharing.</a>"
+            "You can view curiculum checklist for Banchelor of Science in Biology by visiting this drive, <a href='https://drive.google.com/drive/folders/1sKtis1zU8p6t5zXFphBa6FkPIppc0ZMl?usp=sharing'> click here...</a>"
          ]
       },
       {
@@ -365,20 +365,82 @@
             "Available subects in industrial engineering"
          ],
          "responses":[
-            "You can view curiculum checklist for Banchelor of Science in Industrial Engineering by visiting this drive, <a>https://drive.google.com/drive/folders/12s1u2AqS8uyh7ujf-uSUE7QhgOaMd4Yu?usp=sharing.</a>"
+            "You can view curiculum checklist for Banchelor of Science in Industrial Engineering by visiting this drive, <a href='https://drive.google.com/drive/folders/12s1u2AqS8uyh7ujf-uSUE7QhgOaMd4Yu?usp=sharing'> click here...</a>"
          ]
       },
       {
          "tag":"ChecklistBSIT",
          "patterns":[
-            "Subjects to take in Industrial Engineering",
-            "Industrial subjects",
-            "Course description in bs industrial engineering",
-            "Available subects in industrial engineering"
+            "Subjects to take in IT",
+            "IT subjects",
+            "Course description in bs information technology",
+            "Available subects in IT"
          ],
          "responses":[
-            "You can view curiculum checklist for Banchelor of Science in Industrial Engineering by visiting this drive, <a>https://drive.google.com/drive/folders/12s1u2AqS8uyh7ujf-uSUE7QhgOaMd4Yu?usp=sharing.</a>"
+            "You can view curiculum checklist for Banchelor of Science in Information Technology by visiting this drive, <a href='https://drive.google.com/drive/folders/136szNhGYT7ukdx5iqTtShvb-B3g0IbEp?usp=sharing'> click here...</a>"
          ]
+      },
+      {
+         "tag":"ChecklistBSPHARM",
+         "patterns":[
+            "Subjects to take in Pharmacy",
+            "pharmacy subjects",
+            "Course description in bs pharmacy",
+            "Available subects in pharmacy",
+            "Pharmacy",
+            "PHARM",
+            "BSPHARM"
+         ],
+         "responses":[
+            "You can view curiculum checklist for Banchelor of Science in Pharmacy by visiting this drive, <a href='https://drive.google.com/drive/folders/1V5JxhuqizsMKC8LYxvjtOCed2K-Z0RJb?usp=sharing'> click here...</a>"
+         ]
+      },
+      {
+         "tag":"ChecklistBSARCH",
+         "patterns":[
+            "Subjects to take in Architecture",
+            "Architecture subjects",
+            "Course description in bs architecture",
+            "Available subects in architecture",
+            "Architecture",
+            "ARCH",
+            "BSARCH",
+            "Architect"
+         ],
+         "responses":[
+            "You can view curiculum checklist for Banchelor of Science in Architecture by visiting this drive, <a href='https://drive.google.com/drive/folders/1PrTIqlwrPrW8jTRqys_7pAMCxikeiCIT?usp=sharing'> click here...</a>"
+         ]
+      },
+      {
+         "tag":"ChecklistBSPOLSCI",
+         "patterns":[
+            "Subjects to take in Political Science",
+            "Political science subjects",
+            "Course description in bs political science",
+            "Available subects in political science",
+            "POL SCI",
+            "POLSCI",
+            "Political Science",
+            "BSPOLSCI"
+         ],
+         "responses":[
+            "You can view curiculum checklist for Banchelor of Science in Polictical Science by visiting this drive, <a href='https://drive.google.com/drive/folders/1ltItNmh__b2R2yuQAk5WwXAE2MHPJ9xK?usp=sharing'> click here...</a>"
+         ]
+      },
+      {
+         "tag":"Checklist",
+         "patterns":[
+            "Do you have a courses checklist?",
+            "Checklist",
+            "Curiculim checklist",
+            "What are the curiculum checklist?",
+            "Do you have a curiculum checklist?",
+            "What are your curiculum checklist"
+         ],
+         "responses":[
+            "What specifically curiculum checklist are you looking for?",
+            "What course are you looking for?"
+         ]    
       }
 
 
