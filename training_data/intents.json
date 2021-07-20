@@ -341,16 +341,43 @@
             "Available subects in mechanical engineering"
          ],
          "responses":[
-            "You can view curiculum checklist for Banchelor of Science in Mechanical Engineering by visiting this drive, <a>https://drive.google.com/drive/folders/1Ero3GKvdfh5K20hK06vS3NLcXFpPWElJ?usp=sharing.</a>"
+            "You can view curiculum checklist for Banchelor of Science in Mechanical Engineering by visiting this drive, <a href="drive.google.com/drive/folders/1Ero3GKvdfh5K20hK06vS3NLcXFpPWElJ?usp=sharing"> click here..</a>"
          ]
       },
       {
          "tag":"ChecklistBSBIO",
          "patterns":[
-            "Subjects to take in Mechanical Engineering",
+            "Subjects to take in Biology",
             "Biology subjects",
             "Course description in bs biology",
             "Available subects in biology"
+         ],
+         "responses":[
+            "You can view curiculum checklist for Banchelor of Science in Biology by visiting this drive, <a>https://drive.google.com/drive/folders/1sKtis1zU8p6t5zXFphBa6FkPIppc0ZMl?usp=sharing.</a>"
+         ]
+      },
+      {
+         "tag":"ChecklistBSIE",
+         "patterns":[
+            "Subjects to take in Industrial Engineering",
+            "Industrial subjects",
+            "Course description in bs industrial engineering",
+            "Available subects in industrial engineering"
+         ],
+         "responses":[
+            "You can view curiculum checklist for Banchelor of Science in Industrial Engineering by visiting this drive, <a>https://drive.google.com/drive/folders/12s1u2AqS8uyh7ujf-uSUE7QhgOaMd4Yu?usp=sharing.</a>"
+         ]
+      },
+      {
+         "tag":"ChecklistBSIT",
+         "patterns":[
+            "Subjects to take in Industrial Engineering",
+            "Industrial subjects",
+            "Course description in bs industrial engineering",
+            "Available subects in industrial engineering"
+         ],
+         "responses":[
+            "You can view curiculum checklist for Banchelor of Science in Industrial Engineering by visiting this drive, <a>https://drive.google.com/drive/folders/12s1u2AqS8uyh7ujf-uSUE7QhgOaMd4Yu?usp=sharing.</a>"
          ]
       }
 
