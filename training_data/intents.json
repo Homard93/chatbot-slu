@@ -6,12 +6,53 @@
             "Hi",
             "Hey",
             "Hello",
-            "How are you?",
             "Good day"
          ],
          "responses":[
             "Hello, I'm the University Chatbot"
-         ]
+         ],
+         "context_set": "hwru?"
+      },
+      {
+         "tag":"howami",
+         "patterns":[
+            "How are you?",
+            "How are you feeling?",
+            "What's up?"
+         ],
+         "responses":[
+            "I'm feeling great as usual, how about you?"
+         ],
+         "context_filter": "hwru?",
+         "context_set": "question"
+      },
+      {
+         "tag":"imgood",
+         "patterns":[
+            "I'm good",
+            "I'm okay",
+            "I'm feeling great as well"
+         ],
+         "responses":[
+            "That's good! So how can I help you today?"
+         ],
+         "context_filter": "question"
+      },
+      {
+         "tag":"imnot",
+         "patterns":[
+            "Feeling bad",
+            "Not okay",
+            "I feel sad",
+            "I don't feel so good",
+            "depressed",
+            "sad",
+            "not good"
+         ],
+         "responses":[
+            "Oh, I see. I hope everything will turn out well in the end. Anyway, what can I do for you?"
+         ],
+         "context_filter": "question"
       },
       {
          "tag":"thanks",
@@ -25,7 +66,8 @@
             "Happy to help!",
             "Any time!",
             "My pleasure"
-         ]
+         ],
+         "context_set": ""
       },
       {
          "tag":"closing",
@@ -35,7 +77,8 @@
          ],
          "responses":[
             "Goodbye"
-         ]
+         ],
+         "context_set": ""
       },
       {
          "tag":"email",
@@ -48,7 +91,43 @@
          ],
          "responses":[
             "The email address of the Finance Office is<br><a>finance.ar@slu.edu.ph</a> <br> For online payments please email your reciept on this email: <br> <a>claims.payment.tuition@slu.edu.ph</a> <br> <a>finance.ar@slu.edu.ph</a><br> <a>claimspayment@slu.edu.ph</a>"
-         ]
+         ],
+         "context_set": ""
+      },
+       {
+          "tag":"DeanOffice",
+         "patterns":[
+            "How can I contact the Dean's Office",
+            "What are the Email address of the Dean's Office"
+         ],
+         "responses":[
+            "SAMCIS: samcisdean@slu.edu.ph <br> SEA: sasdean@slu.edu.ph<br> SOL: sol.admission@slu.edu.ph<br> SOM: somdean@slu.edu.ph<br> SON: sondean@slu.edu.ph<br> SNS: snsdean@slu.edu.ph<br> STELA: steladean@slu.edu.ph"
+         ],
+         "context_set": ""
+      },
+            {
+          "tag":"EnrollmentSOM",
+         "patterns":[
+            "What are the processes for School of Medicine Application?",
+            "What is enrollment Process for School of Medicine?",
+            "Enrollment process for SOM",
+            "SOM enrollment"
+         ],
+         "responses":[
+            "Please visit this link for more information: <a>https://www.slu.edu.ph/school-of-medicine-application-for-admission-ay-2021-2022/</a>"
+         ],
+         "context_set": ""
+      },
+      {
+          "tag":"EmailEnrollment",
+         "patterns":[
+            "What email address could I contact about enrollment process?",
+            "Email address for Enrollment Process"
+         ],
+         "responses":[
+            "Please contact this email address: admissions@slu.edu.ph"
+         ],
+         "context_set": ""
       },
       {
          "tag":"landline",
@@ -61,7 +140,8 @@
          ],
          "responses":[
             "+(63) (74) 442 3043; 442 2793; 442 2193; 443 2001; 444 8246 to 48 (loc. 279)"
-         ]
+         ],
+         "context_set": ""
       },
       {
          "tag":"funny",
@@ -73,7 +153,8 @@
          "responses":[
             "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
             "What did the buffalo say when his son left for college? Bison."
-         ]
+         ],
+         "context_set": ""
       },
       {
          "tag":"tuition",
@@ -85,7 +166,8 @@
          ],
          "responses":[
             "What school specifically are you pertaining to? <br> Schools in SLU: <br> School of Nursing (SON) <br> School of Engineering and Architecture (SEA) <br> School of Natural Sciences (SNS) <br> School of Medicine (SOM) <br> School of Accountancy, Management, Computing and Information Studies (SAMCIS) <br> School of Teacher Education and Liberal Arts (STELA) <br> School of Law (SOL)"
-         ]
+         ],
+         "context_set": "tuition"
       },
       {
          "tag":"SON",
@@ -97,11 +179,11 @@
             "Nursing Tuition",
             "Tuition Nursing",
             "Nursing Student Tuition Fee"
-
          ],
          "responses":[
             "Bachelor of Science in Nursing: ₱37,000 - ₱41,000"
-         ]
+         ],
+         "context_filter": "tuition"
       },
       {
          "tag":"SEA",
@@ -120,11 +202,11 @@
             "Tuition SEA",
             "Enginering Tuition Fee",
             "Tuition fee for engineering student"
-
          ],
          "responses":[
             "Bachelor of Science in Achitecture: ₱29,000 - ₱33,000 <br> Bachelor of Science in Chemical Engineering: ₱24,000 - ₱28,000 <br> Bachelor of Science in Civil Engineering: ₱32,000 - ₱36,000 <br> Bachelor of Science in Electrical Engineering: ₱29,000 - ₱33,000 <br> Bachelor of Science in Electronices Engineering: ₱27,000 - ₱31,000 <br> Bachelor of Science in Geodetic Engineering: ₱29,000 - ₱33,000 <br> Bachelor of Science in Industrial Engineering: ₱24,000 - ₱28,000 <br> Bachelor of Science in Mechanical Engineering: ₱26,000 - ₱30,000 <br> Bachelor of Science in Mechatronics Engineering: ₱26,000 - ₱30,000 <br> Bachelor of Science in Mining Engineering: ₱27,000 - ₱31,000"
-         ]
+         ],
+         "context_filter": "tuition"
       },
       {
          "tag":"SNS",
@@ -144,7 +226,8 @@
          ],
          "responses":[
             "Bachelor of Science in Biology: ₱28,000 - ₱32,000 <br> Bachelor of Science in Medical Laboratory Science: ₱28,000 - ₱32,000 <br> Bachelor of Science in Pharmacy ₱32,000 - ₱36,000 <br> Bachelor of Science in Radiologic Technology: ₱28,000 - ₱32,000"
-         ]
+         ],
+         "context_filter": "tuition"
       },
       {
          "tag":"SOM",
@@ -158,7 +241,8 @@
          ],
          "responses":[
             "₱25,000 - ₱30,000"
-         ]
+         ],
+         "context_filter": "tuition"
       },
       {
          "tag":"SAMCIS",
@@ -186,7 +270,8 @@
          ],
          "responses":[
             "Bachelor of Science in Accountancy: ₱29,000 - ₱33,000 <br> Bachelor of Science in Management Accounting: ₱29,000 - ₱33,000 <br> Bachelor of Science in Business Administration major in: <br> Financial Management with specialization in Business Analytics: ₱29,000 - ₱33,000 <br> Marketing Management with specialization in Business Analytics: ₱30,000 - ₱34,000 <br> Bachelor of Science in Entrepreneurship with specialization in Business Analytics: ₱29,000 - ₱33,000 <br> Bachelor of Science in Tourism Management: ₱30,000 - ₱34,000 <br> Bachelor of Science in Hospitality Management: ₱30,000 - ₱34,000 <br> Bachelor of Science in Computer Science: ₱39,000 - ₱42,000 <br> Bachelor of Science in Information Technology: ₱36,000 - ₱39,000"
-         ]
+         ],
+         "context_filter": "tuition"
       },
       {
          "tag":"STELA",
@@ -213,7 +298,8 @@
          ],
          "responses":[
             "Bachelor of Elementary Education: ₱28,000 - ₱32,000 <br> Bachelor of Secondary Education with areas of specialization in:<br> English: ₱24,000 - ₱28,000 <br> Mathematics: ₱24,000 - ₱28,000 <br> Science: ₱29,000 - ₱33,000 <br> Social Studies: ₱24,000 - ₱28,000 <br> Bachelor of Physical Education: ₱26,000 - ₱30,000 <br> Certificate in Teaching: ₱28,000 - ₱32,000 <br> Bachelor of Arts in Communication: ₱26,000 - ₱30,000 <br> Bachelor of Arts in Philosophy: ₱28,000 - ₱32,000 <br> Bachelor of Arts in Political Science: ₱26,000 - ₱30,000 <br> Bachelor of Science in Psychology: ₱29,000 - ₱33,000 <br> Bachelor of Science in Social Work: ₱24,000 - ₱28,000"
-         ]
+         ],
+         "context_filter": "tuition"
       },
       {
          "tag":"SOL",
@@ -228,20 +314,8 @@
          ],
          "responses":[
             "₱25,000 - ₱30,000"
-         ]
-      },
-      {
-         "tag":"mechanicaleng",
-         "patterns":[
-            "Tuition Mechanical Engineering",
-            "what is the tuition for Mechanical Engineering?",
-            "Mechanical Engineering tuition",
-            "ME tuition fee",
-            "MecEng tuition fee"
          ],
-         "responses":[
-            "Bachelor of Science in Mechanical Engineering: 26,000 - 30,000"
-         ]
+         "context_filter": "tuition"
       },
       {
          "tag":"EntranceExam",
@@ -256,7 +330,8 @@
          ],
          "responses":[
             "SLU College Entrance Examination For Incoming Freshmen for more information go to <a>https://www.slu.edu.ph/admissionfreshmen-application-guidelines/</a>"
-         ] 
+         ],
+         "context_set": "" 
       }, 
       {
           "tag":"RetakeEntranceExam",
@@ -266,7 +341,8 @@
          "responses":[
             "Unfortunately, No",
             "No, you cannot retake the SLU Entrance Examination"
-         ]
+         ],
+         "context_set": ""
       },
        {
           "tag":"RetakeEntranceExamtwo",
@@ -275,7 +351,8 @@
          ],
          "responses":[
             "Unfortunately, you cannot retake the SLU Entrance Examination"
-         ]
+         ],
+         "context_set": ""
       },
        {
           "tag":"MinGrade",
@@ -286,7 +363,8 @@
          ],
          "responses":[
             "Please visit this link for more information <a>https://www.slu.edu.ph/procedure-for-the-online-application-for-admission-of-new-students-for-the-2nd-semester-of-ay-2020-2021-as-of-january-04-2021/</a>"
-         ]
+         ],
+         "context_set": ""
       },
        {
           "tag":"SLUScholarship",
@@ -298,30 +376,10 @@
          ],
          "responses":[
             "Please visit this link for more information <a>https://www.slu.edu.ph/procedure-for-the-online-application-for-admission-of-new-students-for-the-2nd-semester-of-ay-2020-2021-as-of-january-04-2021/</a>"
-         ]
-      },
-      {
-          "tag":"EnrollmentSOM",
-         "patterns":[
-            "What are the processes for School of Medicine Application?",
-            "What is enrollment Process for School of Medicine?",
-            "Enrollment process for SOM",
-            "SOM enrollment"
          ],
-         "responses":[
-            "Please visit this link for more information: <a>https://www.slu.edu.ph/school-of-medicine-application-for-admission-ay-2021-2022/</a>"
-         ]
+         "context_set": ""
       },
-      {
-          "tag":"EmailEnrollment",
-         "patterns":[
-            "What email address could I contact about enrollment process?",
-            "Email address for Enrollment Process"
-         ],
-         "responses":[
-            "Please contact this email address: admissions@slu.edu.ph"
-         ]
-      },
+
       {
           "tag":"ApplicantsRequirements",
          "patterns":[
@@ -331,7 +389,8 @@
          ],
          "responses":[
             "Click the link for more information <a>https://www.slu.edu.ph/admission/freshmen-application-guidelines/</a> and fill up the form here: <a>https://i2.slu.edu.ph/newapplication/apply.jsp</a>"
-         ]
+         ],
+         "context_set": ""
       },
        {
           "tag":"OldStudentRequirements",
@@ -341,43 +400,15 @@
          ],
          "responses":[
             "Go to your slu portal then click the (Enrollment) on the navigation bar. There are steps and instructions there that you need to follow for your enrollment."
-         ]
+         ],
+         "context_set": ""
       },
-      {
-          "tag":"EmailAddFinance",
-         "patterns":[
-            "What is the email address of Finance Office?",
-            "Finance Office email address"
 
-         ],
-         "responses":[
-            "Finance Office Email Address: <br>claims.payment.tuition@slu.edu.ph<br>finance.ar@slu.edu.ph<br>claimspayment@slu.edu.ph"
-         ]
-      },
-      {
-          "tag":"SLULandline",
-         "patterns":[
-            "What are the SLU landline numbers?",
-            "available SLU landline numbers"
-         ],
-         "responses":[
-            " SLU Landline Number: +(63) (74) 442 3043; 442 2793; 442 2193; 443 2001; 444 8246 to 48 (loc. 279)"
-         ]
-      },
-       {
-          "tag":"DeanOffice",
-         "patterns":[
-            "How can I contact the Dean's Office",
-            "What are the Email address of the Dean's Office"
-         ],
-         "responses":[
-            "SAMCIS: samcisdean@slu.edu.ph <br> SEA: sasdean@slu.edu.ph<br> SOL: sol.admission@slu.edu.ph<br> SOM: somdean@slu.edu.ph<br> SON: sondean@slu.edu.ph<br> SNS: snsdean@slu.edu.ph<br> STELA: steladean@slu.edu.ph"
-         ]
-      },
       {
          "tag":"Payment",
          "patterns":[
             "Pay",
+            "Payment",
             "How will we pay for the tuition?",
             "What is the mode of payment?",
             "Process of payments"
@@ -410,6 +441,21 @@
          "context_filter": "payment?"
       },
       {
+         "tag":"Checklist",
+         "patterns":[
+            "Do you have a courses checklist?",
+            "Checklist",
+            "Curiculim checklist",
+            "What are the curiculum checklist?",
+            "Do you have a curiculum checklist?",
+            "What are your curiculum checklist"
+         ],
+         "responses":[
+            "What specific curiculum checklist are you looking for?"
+         ],
+         "context_set": "checklist"
+      },
+      {
          "tag":"ChecklistBSPOLSCI",
          "patterns":[
             "Subjects to take in Political Science",
@@ -421,7 +467,8 @@
          ],
          "responses":[
             "You can view curiculum checklist for Banchelor of Science in Polictical Science by visiting this drive, <a href='https://drive.google.com/drive/folders/1ltItNmh__b2R2yuQAk5WwXAE2MHPJ9xK?usp=sharing'> click here...</a>"
-         ]
+         ],
+         "context_filter": "checklist"
       },
              {
          "tag":"ChecklistBSARCH",
@@ -435,7 +482,8 @@
          ],
          "responses":[
             "You can view curiculum checklist for Banchelor of Science in Architecture by visiting this drive, <a href='https://drive.google.com/drive/folders/1PrTIqlwrPrW8jTRqys_7pAMCxikeiCIT?usp=sharing'> click here...</a>"
-         ]
+         ],
+         "context_filter": "checklist"
       },
              {
          "tag":"ChecklistBSPHARM",
@@ -449,7 +497,8 @@
          ],
          "responses":[
             "You can view curiculum checklist for Banchelor of Science in Pharmacy by visiting this drive, <a href='https://drive.google.com/drive/folders/1V5JxhuqizsMKC8LYxvjtOCed2K-Z0RJb?usp=sharing'> click here...</a>"
-         ]
+         ],
+         "context_filter": "checklist"
       },
              {
          "tag":"ChecklistBSIT",
@@ -464,7 +513,8 @@
          ],
          "responses":[
             "You can view curiculum checklist for Banchelor of Science in Information Technology by visiting this drive, <a href='https://drive.google.com/drive/folders/136szNhGYT7ukdx5iqTtShvb-B3g0IbEp?usp=sharing'> click here...</a>"
-         ]
+         ],
+         "context_filter": "checklist"
       },
              {
          "tag":"ChecklistBSME",
@@ -478,7 +528,8 @@
          ],
          "responses":[
             "You can view curiculum checklist for Banchelor of Science in Mechanical Engineering by visiting this drive, <a href='https://drive.google.com/drive/folders/1Ero3GKvdfh5K20hK06vS3NLcXFpPWElJ?usp=sharing'> click here...</a>"
-         ]
+         ],
+         "context_filter": "checklist"
       },
       {
          "tag":"ChecklistBSBIO",
@@ -492,7 +543,8 @@
          ],
          "responses":[
             "You can view curiculum checklist for Banchelor of Science in Biology by visiting this drive, <a href='https://drive.google.com/drive/folders/1sKtis1zU8p6t5zXFphBa6FkPIppc0ZMl?usp=sharing'> click here...</a>"
-         ]
+         ],
+         "context_filter": "checklist"
       },
       {
          "tag":"ChecklistBSIE",
@@ -506,36 +558,19 @@
          ],
          "responses":[
             "You can view curiculum checklist for Banchelor of Science in Industrial Engineering by visiting this drive, <a href='https://drive.google.com/drive/folders/12s1u2AqS8uyh7ujf-uSUE7QhgOaMd4Yu?usp=sharing'> click here...</a>"
-         ]
-      },
-       {
-         "tag":"LookingFor,",
-         "patterns":[
-            " "  
          ],
-         "responses":[
-            "What are you looking for?"
-         ]    
+         "context_filter": "checklist"
       },
-      {
-         "tag":"Checklist",
-         "patterns":[
-            "Do you have a courses checklist?",
-            "Checklist",
-            "Curiculim checklist",
-            "What are the curiculum checklist?",
-            "Do you have a curiculum checklist?",
-            "What are your curiculum checklist"
-         ],
-         "responses":[
-            "What specifically curiculum checklist are you looking for?",
-            "What course are you looking for?"
-         ]
-      },
+
       {
          "tag": "course",
-         "patterns": ["What courses do you offer?", "Courses"],
-         "responses": ["We offer Engineering, Business Manangement, Information Technology"]
+         "patterns": [
+            "What courses do you offer?", "Courses"
+            ],
+         "responses": [
+            "We offer Engineering, Business Manangement, Information Technology"
+            ],
+         "context_set": ""
       },
       {
          "tag":"default",
@@ -546,14 +581,13 @@
             "Do you",
             "What does",
             "The",
-            "no",
-            "yes",
-            " "
+             " "
          ],
          "responses":[
             "Sorry, I can't understand your query.",
             "What are you looking for?"
-         ]
+         ],
+         "context_set": ""
       }
 
    ]
