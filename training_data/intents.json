@@ -21,9 +21,38 @@
             "What's up?"
          ],
          "responses":[
-            "I'm feeling good as usual, how about you?"
+            "I'm feeling great as usual, how about you?"
          ],
-         "context_filter": "hwru?"
+         "context_filter": "hwru?",
+         "context_set": "question"
+      },
+      {
+         "tag":"imgood",
+         "patterns":[
+            "I'm good",
+            "I'm okay",
+            "I'm feeling great as well"
+         ],
+         "responses":[
+            "That's good! So how can I help you today?"
+         ],
+         "context_filter": "question"
+      },
+      {
+         "tag":"imnot",
+         "patterns":[
+            "Feeling bad",
+            "Not okay",
+            "I feel sad",
+            "I don't feel so good",
+            "depressed",
+            "sad",
+            "not good"
+         ],
+         "responses":[
+            "Oh, I see. I hope everything will turn out well in the end. Anyway, what can I do for you?"
+         ],
+         "context_filter": "question"
       },
       {
          "tag":"thanks",
@@ -37,7 +66,8 @@
             "Happy to help!",
             "Any time!",
             "My pleasure"
-         ]
+         ],
+         "context_set": ""
       },
       {
          "tag":"closing",
@@ -47,7 +77,8 @@
          ],
          "responses":[
             "Goodbye"
-         ]
+         ],
+         "context_set": ""
       },
       {
          "tag":"email",
@@ -60,7 +91,8 @@
          ],
          "responses":[
             "The email address of the Finance Office is<br><a>finance.ar@slu.edu.ph</a> <br> For online payments please email your reciept on this email: <br> <a>claims.payment.tuition@slu.edu.ph</a> <br> <a>finance.ar@slu.edu.ph</a><br> <a>claimspayment@slu.edu.ph</a>"
-         ]
+         ],
+         "context_set": ""
       },
        {
           "tag":"DeanOffice",
@@ -70,7 +102,8 @@
          ],
          "responses":[
             "SAMCIS: samcisdean@slu.edu.ph <br> SEA: sasdean@slu.edu.ph<br> SOL: sol.admission@slu.edu.ph<br> SOM: somdean@slu.edu.ph<br> SON: sondean@slu.edu.ph<br> SNS: snsdean@slu.edu.ph<br> STELA: steladean@slu.edu.ph"
-         ]
+         ],
+         "context_set": ""
       },
             {
           "tag":"EnrollmentSOM",
@@ -82,7 +115,8 @@
          ],
          "responses":[
             "Please visit this link for more information: <a>https://www.slu.edu.ph/school-of-medicine-application-for-admission-ay-2021-2022/</a>"
-         ]
+         ],
+         "context_set": ""
       },
       {
           "tag":"EmailEnrollment",
@@ -92,7 +126,8 @@
          ],
          "responses":[
             "Please contact this email address: admissions@slu.edu.ph"
-         ]
+         ],
+         "context_set": ""
       },
       {
          "tag":"landline",
@@ -105,7 +140,8 @@
          ],
          "responses":[
             "+(63) (74) 442 3043; 442 2793; 442 2193; 443 2001; 444 8246 to 48 (loc. 279)"
-         ]
+         ],
+         "context_set": ""
       },
       {
          "tag":"funny",
@@ -117,7 +153,8 @@
          "responses":[
             "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
             "What did the buffalo say when his son left for college? Bison."
-         ]
+         ],
+         "context_set": ""
       },
       {
          "tag":"tuition",
@@ -293,7 +330,8 @@
          ],
          "responses":[
             "SLU College Entrance Examination For Incoming Freshmen for more information go to <a>https://www.slu.edu.ph/admissionfreshmen-application-guidelines/</a>"
-         ] 
+         ],
+         "context_set": "" 
       }, 
       {
           "tag":"RetakeEntranceExam",
@@ -303,7 +341,8 @@
          "responses":[
             "Unfortunately, No",
             "No, you cannot retake the SLU Entrance Examination"
-         ]
+         ],
+         "context_set": ""
       },
        {
           "tag":"RetakeEntranceExamtwo",
@@ -312,7 +351,8 @@
          ],
          "responses":[
             "Unfortunately, you cannot retake the SLU Entrance Examination"
-         ]
+         ],
+         "context_set": ""
       },
        {
           "tag":"MinGrade",
@@ -323,7 +363,8 @@
          ],
          "responses":[
             "Please visit this link for more information <a>https://www.slu.edu.ph/procedure-for-the-online-application-for-admission-of-new-students-for-the-2nd-semester-of-ay-2020-2021-as-of-january-04-2021/</a>"
-         ]
+         ],
+         "context_set": ""
       },
        {
           "tag":"SLUScholarship",
@@ -335,7 +376,8 @@
          ],
          "responses":[
             "Please visit this link for more information <a>https://www.slu.edu.ph/procedure-for-the-online-application-for-admission-of-new-students-for-the-2nd-semester-of-ay-2020-2021-as-of-january-04-2021/</a>"
-         ]
+         ],
+         "context_set": ""
       },
 
       {
@@ -347,7 +389,8 @@
          ],
          "responses":[
             "Click the link for more information <a>https://www.slu.edu.ph/admission/freshmen-application-guidelines/</a> and fill up the form here: <a>https://i2.slu.edu.ph/newapplication/apply.jsp</a>"
-         ]
+         ],
+         "context_set": ""
       },
        {
           "tag":"OldStudentRequirements",
@@ -357,13 +400,15 @@
          ],
          "responses":[
             "Go to your slu portal then click the (Enrollment) on the navigation bar. There are steps and instructions there that you need to follow for your enrollment."
-         ]
+         ],
+         "context_set": ""
       },
 
       {
          "tag":"Payment",
          "patterns":[
             "Pay",
+            "Payment",
             "How will we pay for the tuition?",
             "What is the mode of payment?",
             "Process of payments"
@@ -524,7 +569,8 @@
             ],
          "responses": [
             "We offer Engineering, Business Manangement, Information Technology"
-            ]
+            ],
+         "context_set": ""
       },
       {
          "tag":"default",
@@ -535,13 +581,13 @@
             "Do you",
             "What does",
             "The",
-            "no",
-            "yes"
+             " "
          ],
          "responses":[
             "Sorry, I can't understand your query.",
             "What are you looking for?"
-         ]
+         ],
+         "context_set": ""
       }
 
    ]
