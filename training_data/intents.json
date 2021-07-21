@@ -87,7 +87,8 @@
             "Finance Office email address",
             "Email address Finance Office",
             "Finance email",
-            "Email Finance"
+            "Email Finance", 
+            "How can I contact the Finance Office"
          ],
          "responses":[
             "The email address of the Finance Office is<br><a>finance.ar@slu.edu.ph</a> <br> For online payments please email your reciept on this email: <br> <a>claims.payment.tuition@slu.edu.ph</a> <br> <a>finance.ar@slu.edu.ph</a><br> <a>claimspayment@slu.edu.ph</a>"
@@ -98,7 +99,14 @@
           "tag":"DeanOffice",
          "patterns":[
             "How can I contact the Dean's Office",
-            "What are the Email address of the Dean's Office"
+            "What are the Email address of the Dean's Office", 
+            "Dean's Office email of SAMCIS", 
+            "Dean's Office email of SEA", 
+            "Dean's Office email of SOL", 
+            "Dean's Office email of SOM", 
+            "Dean's Office email of SON", 
+            "Dean's Office email of SNS", 
+            "Dean's Office email of STELA"
          ],
          "responses":[
             "SAMCIS: samcisdean@slu.edu.ph <br> SEA: sasdean@slu.edu.ph<br> SOL: sol.admission@slu.edu.ph<br> SOM: somdean@slu.edu.ph<br> SON: sondean@slu.edu.ph<br> SNS: snsdean@slu.edu.ph<br> STELA: steladean@slu.edu.ph"
@@ -111,6 +119,7 @@
             "What are the processes for School of Medicine Application?",
             "What is enrollment Process for School of Medicine?",
             "Enrollment process for SOM",
+            "School of Medicine enrollment",
             "SOM enrollment"
          ],
          "responses":[
@@ -122,7 +131,9 @@
           "tag":"EmailEnrollment",
          "patterns":[
             "What email address could I contact about enrollment process?",
-            "Email address for Enrollment Process"
+            "Email address for Enrollment Process",
+            "Contact for Enrollment Process", 
+            "Who can I contact for Enrollment process questions"
          ],
          "responses":[
             "Please contact this email address: admissions@slu.edu.ph"
@@ -139,7 +150,7 @@
             "SLU hotline"
          ],
          "responses":[
-            "+(63) (74) 442 3043; 442 2793; 442 2193; 443 2001; 444 8246 to 48 (loc. 279)"
+            "You can contact the SLU landline:<br> +(63) (74) 442 3043; 442 2793; 442 2193; 443 2001; 444 8246 to 48 (loc. 279)"
          ],
          "context_set": ""
       },
@@ -148,10 +159,14 @@
          "patterns":[
             "Tell me a joke",
             "Tell me something funny",
+            "Can you tell me a joke",
+            "Make me happy",
             "Do you know a joke"
          ],
          "responses":[
             "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+            "What do you call a person without a nose? Nobody nose.",
+            "What do you call an aesthetic door? A-door-able.",
             "What did the buffalo say when his son left for college? Bison."
          ],
          "context_set": ""
@@ -161,8 +176,9 @@
          "patterns":[
             "How much is the tuition fee",
             "Tuition",
-            "tuition fee",
-            "SLU tuition"
+            "tuition fee in SLU",
+            "SLU tuition",
+            "Tuition fee for incoming freshmen"
          ],
          "responses":[
             "What school specifically are you pertaining to? <br> Schools in SLU: <br> School of Nursing (SON) <br> School of Engineering and Architecture (SEA) <br> School of Natural Sciences (SNS) <br> School of Medicine (SOM) <br> School of Accountancy, Management, Computing and Information Studies (SAMCIS) <br> School of Teacher Education and Liberal Arts (STELA) <br> School of Law (SOL)"
@@ -177,11 +193,15 @@
             "SON tuition",
             "Tuition SON",
             "Nursing Tuition",
-            "Tuition Nursing",
-            "Nursing Student Tuition Fee"
+            "Tuition for Nursing",
+            "Nursing Student Tuition Fee", 
+            "Tuition fee for Freshmen Nursing",
+            "Tuition fee for 2nd year Nursing",
+            "Tuition fee for 3rd year Nursing",
+            "Tuition fee for 4th year Nursing"
          ],
          "responses":[
-            "Bachelor of Science in Nursing: ₱37,000 - ₱41,000"
+            "School of Nursing:<br> Bachelor of Science in Nursing: ₱37,000 - ₱41,000"
          ],
          "context_filter": "tuition"
       },
@@ -201,10 +221,14 @@
             "SEA tuition",
             "Tuition SEA",
             "Enginering Tuition Fee",
-            "Tuition fee for engineering student"
+            "Tuition fee for engineering student", 
+            "Tuition fee for Freshmen SEA",
+            "Tuition fee for 2nd year SEA",
+            "Tuition fee for 3rd year SEA",
+            "Tuition fee for 4th year SEA"
          ],
          "responses":[
-            "Bachelor of Science in Achitecture: ₱29,000 - ₱33,000 <br> Bachelor of Science in Chemical Engineering: ₱24,000 - ₱28,000 <br> Bachelor of Science in Civil Engineering: ₱32,000 - ₱36,000 <br> Bachelor of Science in Electrical Engineering: ₱29,000 - ₱33,000 <br> Bachelor of Science in Electronices Engineering: ₱27,000 - ₱31,000 <br> Bachelor of Science in Geodetic Engineering: ₱29,000 - ₱33,000 <br> Bachelor of Science in Industrial Engineering: ₱24,000 - ₱28,000 <br> Bachelor of Science in Mechanical Engineering: ₱26,000 - ₱30,000 <br> Bachelor of Science in Mechatronics Engineering: ₱26,000 - ₱30,000 <br> Bachelor of Science in Mining Engineering: ₱27,000 - ₱31,000"
+            "School of Engineering and Architecture:<br> Bachelor of Science in Achitecture: ₱29,000 - ₱33,000 <br> Bachelor of Science in Chemical Engineering: ₱24,000 - ₱28,000 <br> Bachelor of Science in Civil Engineering: ₱32,000 - ₱36,000 <br> Bachelor of Science in Electrical Engineering: ₱29,000 - ₱33,000 <br> Bachelor of Science in Electronices Engineering: ₱27,000 - ₱31,000 <br> Bachelor of Science in Geodetic Engineering: ₱29,000 - ₱33,000 <br> Bachelor of Science in Industrial Engineering: ₱24,000 - ₱28,000 <br> Bachelor of Science in Mechanical Engineering: ₱26,000 - ₱30,000 <br> Bachelor of Science in Mechatronics Engineering: ₱26,000 - ₱30,000 <br> Bachelor of Science in Mining Engineering: ₱27,000 - ₱31,000"
          ],
          "context_filter": "tuition"
       },
@@ -221,11 +245,14 @@
             "Tuition SNS",
             "NATSCI Tuition fee",
             "Tuition fee for NATSCI",
-            "Medtech student tuition fee"
-            
+            "Medtech student tuition fee", 
+            "Tuition fee for Freshmen SNS",
+            "Tuition fee for 2nd year SNS",
+            "Tuition fee for 3rd year SNS",
+            "Tuition fee for 4th year SNS"
          ],
          "responses":[
-            "Bachelor of Science in Biology: ₱28,000 - ₱32,000 <br> Bachelor of Science in Medical Laboratory Science: ₱28,000 - ₱32,000 <br> Bachelor of Science in Pharmacy ₱32,000 - ₱36,000 <br> Bachelor of Science in Radiologic Technology: ₱28,000 - ₱32,000"
+            "School of Natural Sciences:<br> Bachelor of Science in Biology: ₱28,000 - ₱32,000 <br> Bachelor of Science in Medical Laboratory Science: ₱28,000 - ₱32,000 <br> Bachelor of Science in Pharmacy ₱32,000 - ₱36,000 <br> Bachelor of Science in Radiologic Technology: ₱28,000 - ₱32,000"
          ],
          "context_filter": "tuition"
       },
@@ -237,10 +264,14 @@
             "SOM tuition",
             "Tuition SOM",
             "Tuition fee for Medicine",
-            "Medicine Tuition"
+            "Medicine Tuition", 
+            "Tuition fee for Freshmen SOM",
+            "Tuition fee for 2nd year SOM",
+            "Tuition fee for 3rd year SOM",
+            "Tuition fee for 4th year SOM"
          ],
          "responses":[
-            "₱25,000 - ₱30,000"
+            "School of Medicine: ₱35,000 - ₱70,000"
          ],
          "context_filter": "tuition"
       },
@@ -266,10 +297,14 @@
             "Tuition SAMCIS",
             "IT/CS tuition fee",
             "Accountancy tuition fee",
-            "Management Tuition fee"
+            "Management Tuition fee",
+            "Tuition fee for Freshmen SAMCIS",
+            "Tuition fee for 2nd year SAMCIS",
+            "Tuition fee for 3rd year SAMCIS",
+            "Tuition fee for 4th year SAMCIS"
          ],
          "responses":[
-            "Bachelor of Science in Accountancy: ₱29,000 - ₱33,000 <br> Bachelor of Science in Management Accounting: ₱29,000 - ₱33,000 <br> Bachelor of Science in Business Administration major in: <br> Financial Management with specialization in Business Analytics: ₱29,000 - ₱33,000 <br> Marketing Management with specialization in Business Analytics: ₱30,000 - ₱34,000 <br> Bachelor of Science in Entrepreneurship with specialization in Business Analytics: ₱29,000 - ₱33,000 <br> Bachelor of Science in Tourism Management: ₱30,000 - ₱34,000 <br> Bachelor of Science in Hospitality Management: ₱30,000 - ₱34,000 <br> Bachelor of Science in Computer Science: ₱39,000 - ₱42,000 <br> Bachelor of Science in Information Technology: ₱36,000 - ₱39,000"
+            "School of Accountancy, Management, Computing and Information Studies:<br> Bachelor of Science in Accountancy: ₱29,000 - ₱33,000 <br> Bachelor of Science in Management Accounting: ₱29,000 - ₱33,000 <br> Bachelor of Science in Business Administration major in: <br> Financial Management with specialization in Business Analytics: ₱29,000 - ₱33,000 <br> Marketing Management with specialization in Business Analytics: ₱30,000 - ₱34,000 <br> Bachelor of Science in Entrepreneurship with specialization in Business Analytics: ₱29,000 - ₱33,000 <br> Bachelor of Science in Tourism Management: ₱30,000 - ₱34,000 <br> Bachelor of Science in Hospitality Management: ₱30,000 - ₱34,000 <br> Bachelor of Science in Computer Science: ₱39,000 - ₱42,000 <br> Bachelor of Science in Information Technology: ₱36,000 - ₱39,000"
          ],
          "context_filter": "tuition"
       },
@@ -289,15 +324,18 @@
             "How much is the tuition fee for bs pysch",
             "How much is the tuition fee for bsswk",
             "Tuition fee for STELA",
-            "What is the tuition fee for School of  of Teacher Education and Liberal Arts?",
+            "What is the tuition fee for School of Teacher Education and Liberal Arts?",
             "STELA tuition",
             "Tuition STELA",
             "Education Tuition fee",
-            "Pschology Tuition fee"
-            
+            "Pschology Tuition fee",
+            "Tuition fee for Freshmen STELA",
+            "Tuition fee for 2nd year STELA",
+            "Tuition fee for 3rd year STELA",
+            "Tuition fee for 4th year STELA"      
          ],
          "responses":[
-            "Bachelor of Elementary Education: ₱28,000 - ₱32,000 <br> Bachelor of Secondary Education with areas of specialization in:<br> English: ₱24,000 - ₱28,000 <br> Mathematics: ₱24,000 - ₱28,000 <br> Science: ₱29,000 - ₱33,000 <br> Social Studies: ₱24,000 - ₱28,000 <br> Bachelor of Physical Education: ₱26,000 - ₱30,000 <br> Certificate in Teaching: ₱28,000 - ₱32,000 <br> Bachelor of Arts in Communication: ₱26,000 - ₱30,000 <br> Bachelor of Arts in Philosophy: ₱28,000 - ₱32,000 <br> Bachelor of Arts in Political Science: ₱26,000 - ₱30,000 <br> Bachelor of Science in Psychology: ₱29,000 - ₱33,000 <br> Bachelor of Science in Social Work: ₱24,000 - ₱28,000"
+            "School of Teacher Education and Liberal Arts:<br> Bachelor of Elementary Education: ₱28,000 - ₱32,000 <br> Bachelor of Secondary Education with areas of specialization in:<br> English: ₱24,000 - ₱28,000 <br> Mathematics: ₱24,000 - ₱28,000 <br> Science: ₱29,000 - ₱33,000 <br> Social Studies: ₱24,000 - ₱28,000 <br> Bachelor of Physical Education: ₱26,000 - ₱30,000 <br> Certificate in Teaching: ₱28,000 - ₱32,000 <br> Bachelor of Arts in Communication: ₱26,000 - ₱30,000 <br> Bachelor of Arts in Philosophy: ₱28,000 - ₱32,000 <br> Bachelor of Arts in Political Science: ₱26,000 - ₱30,000 <br> Bachelor of Science in Psychology: ₱29,000 - ₱33,000 <br> Bachelor of Science in Social Work: ₱24,000 - ₱28,000"
          ],
          "context_filter": "tuition"
       },
@@ -309,11 +347,14 @@
             "SOL tuition",
             "Tuition SOL",
             "Tuition fee for Law",
-            "Law student tuition fee"
-            
+            "Law student tuition fee",
+            "Tuition fee for Freshmen SOL",
+            "Tuition fee for 2nd year SOL",
+            "Tuition fee for 3rd year SOL",
+            "Tuition fee for 4th year SOL" 
          ],
          "responses":[
-            "₱25,000 - ₱30,000"
+            "Schol of Law: ₱25,000 - ₱60,000"
          ],
          "context_filter": "tuition"
       },
@@ -336,11 +377,14 @@
       {
           "tag":"RetakeEntranceExam",
          "patterns":[
-            "What if I failed the SLU Entrance Examination, could I retake it?"
+            "What if I failed the SLU Entrance Examination, could I retake it?", 
+            "Retake Entrance Examination", 
+            "Failed entrance exam new applicants",
+            "Retake Exam for applicants"
          ],
          "responses":[
-            "Unfortunately, No",
-            "No, you cannot retake the SLU Entrance Examination"
+            "Entrance Examination for new applicants in SLU are only given once",
+            "You cannot retake the SLU Entrance Examination"
          ],
          "context_set": ""
       },
@@ -359,7 +403,9 @@
          "patterns":[
             "Is there a minimum required grade to take the entrance examination?",
             "Minimum grade for entrance examination of SLU",
-            "Passing grade for the entrance exam"
+            "Passing grade for the entrance exam", 
+            "required grade for new applicants", 
+            "required average grade for applicants"
          ],
          "responses":[
             "Please visit this link for more information <a>https://www.slu.edu.ph/procedure-for-the-online-application-for-admission-of-new-students-for-the-2nd-semester-of-ay-2020-2021-as-of-january-04-2021/</a>"
@@ -372,7 +418,9 @@
             "Are there available scholarships offered by SLU",
             "Scholarship offered by SLU",
             "Procedure in applying scholarship",
-            "Scholarship"
+            "Scholarship", 
+            "Scholarship for new applicants", 
+            "Scholarship for freshmen"
          ],
          "responses":[
             "Please visit this link for more information <a>https://www.slu.edu.ph/procedure-for-the-online-application-for-admission-of-new-students-for-the-2nd-semester-of-ay-2020-2021-as-of-january-04-2021/</a>"
@@ -385,7 +433,9 @@
          "patterns":[
             "What are the requirements for new applicants in SLU?",
             "Requirements for Freshmen",
-            "Freshmen Requirements"
+            "Freshmen Requirements", 
+            "New Applicants requirements", 
+            "Freshmen Document Requirements for SLU"
          ],
          "responses":[
             "Click the link for more information <a>https://www.slu.edu.ph/admission/freshmen-application-guidelines/</a> and fill up the form here: <a>https://i2.slu.edu.ph/newapplication/apply.jsp</a>"
@@ -396,14 +446,14 @@
           "tag":"OldStudentRequirements",
          "patterns":[
             "What are the requirements for existing students in SLU?",
-            "What are the Requirements for Old Student who will enroll?"
+            "What are the Requirements for Old Student who will enroll?", 
+            "Document requirements for old students"
          ],
          "responses":[
             "Go to your slu portal then click the (Enrollment) on the navigation bar. There are steps and instructions there that you need to follow for your enrollment."
          ],
          "context_set": ""
       },
-
       {
          "tag":"Payment",
          "patterns":[
@@ -411,7 +461,9 @@
             "Payment",
             "How will we pay for the tuition?",
             "What is the mode of payment?",
-            "Process of payments"
+            "Process of payments", 
+            "Payment for tuition fee enrollment", 
+            "Enrollment Payment"
          ],
          "responses":[
             "Are you currently enrolled in SLU?" 
@@ -446,12 +498,13 @@
             "Do you have a courses checklist?",
             "Checklist",
             "Curiculim checklist",
-            "What are the curiculum checklist?",
-            "Do you have a curiculum checklist?",
-            "What are your curiculum checklist"
+            "What are the curriculum checklist?",
+            "Do you have a curriculum checklist?",
+            "What are your curriculum checklist",
+            "Subjects"
          ],
          "responses":[
-            "What specific curiculum checklist are you looking for?"
+            "What specific curriculum checklist are you looking for?"
          ],
          "context_set": "checklist"
       },
@@ -462,11 +515,12 @@
             "Political science subjects",
             "Course description in bs political science",
             "Available subects in political science",
-            "BSPOLSCI",
-            "Pol sci"
+            "BS POLSCI subjects",
+            "Pol sci curriculum checklist", 
+            "Political Science subjects"
          ],
          "responses":[
-            "You can view curiculum checklist for Banchelor of Science in Polictical Science by visiting this drive, <a href='https://drive.google.com/drive/folders/1ltItNmh__b2R2yuQAk5WwXAE2MHPJ9xK?usp=sharing'> click here...</a>"
+            "You can view curriculum checklist for Bachelor of Science in Polictical Science by visiting this drive, <a href='https://drive.google.com/drive/folders/1ltItNmh__b2R2yuQAk5WwXAE2MHPJ9xK?usp=sharing'> click here...</a>"
          ],
          "context_filter": "checklist"
       },
@@ -477,11 +531,11 @@
             "Architecture subjects",
             "Course description in bs architecture",
             "Available subects in architecture",
-            "bs arch",
-            "archi"
+            "bs arch subjects",
+            "archi curriculum checklist"
          ],
          "responses":[
-            "You can view curiculum checklist for Banchelor of Science in Architecture by visiting this drive, <a href='https://drive.google.com/drive/folders/1PrTIqlwrPrW8jTRqys_7pAMCxikeiCIT?usp=sharing'> click here...</a>"
+            "You can view curriculum checklist for Bachelor of Science in Architecture by visiting this drive, <a href='https://drive.google.com/drive/folders/1PrTIqlwrPrW8jTRqys_7pAMCxikeiCIT?usp=sharing'> click here...</a>"
          ],
          "context_filter": "checklist"
       },
@@ -492,11 +546,11 @@
             "pharmacy subjects",
             "Course description in bs pharmacy",
             "Available subects in pharmacy",
-            "bs parhm",
-            "pharm"
+            "bs parhm subjects",
+            "pharmacy curriculum checklist"
          ],
          "responses":[
-            "You can view curiculum checklist for Banchelor of Science in Pharmacy by visiting this drive, <a href='https://drive.google.com/drive/folders/1V5JxhuqizsMKC8LYxvjtOCed2K-Z0RJb?usp=sharing'> click here...</a>"
+            "You can view curriculum checklist for Bachelor of Science in Pharmacy by visiting this drive, <a href='https://drive.google.com/drive/folders/1V5JxhuqizsMKC8LYxvjtOCed2K-Z0RJb?usp=sharing'> click here...</a>"
          ],
          "context_filter": "checklist"
       },
@@ -507,12 +561,12 @@
             "IT subjects",
             "Course description in bs information technology",
             "Available subects in IT",
-            "BSIT",
-            "IT",
-            "Information Technology"
+            "BSIT curriculum checklist",
+            "IT Subject",
+            "Information Technology subjects"
          ],
          "responses":[
-            "You can view curiculum checklist for Banchelor of Science in Information Technology by visiting this drive, <a href='https://drive.google.com/drive/folders/136szNhGYT7ukdx5iqTtShvb-B3g0IbEp?usp=sharing'> click here...</a>"
+            "You can view curriculum checklist for Bachelor of Science in Information Technology by visiting this drive, <a href='https://drive.google.com/drive/folders/136szNhGYT7ukdx5iqTtShvb-B3g0IbEp?usp=sharing'> click here...</a>"
          ],
          "context_filter": "checklist"
       },
@@ -523,11 +577,11 @@
             "Mechanical Engineer subjects",
             "Course description in Mechanical engineering",
             "Available subects in mechanical engineering",
-            "bsme",
-            "Mech eng"
+            "bsme subject",
+            "Mechanical engineering checklist"
          ],
          "responses":[
-            "You can view curiculum checklist for Banchelor of Science in Mechanical Engineering by visiting this drive, <a href='https://drive.google.com/drive/folders/1Ero3GKvdfh5K20hK06vS3NLcXFpPWElJ?usp=sharing'> click here...</a>"
+            "You can view curriculum checklist for Bachelor of Science in Mechanical Engineering by visiting this drive, <a href='https://drive.google.com/drive/folders/1Ero3GKvdfh5K20hK06vS3NLcXFpPWElJ?usp=sharing'> click here...</a>"
          ],
          "context_filter": "checklist"
       },
@@ -538,11 +592,11 @@
             "Biology subjects",
             "Course description in bs biology",
             "Available subects in biology",
-            "bs bio",
-            "Bio"
+            "bs bio subject",
+            "Biology checklist"
          ],
          "responses":[
-            "You can view curiculum checklist for Banchelor of Science in Biology by visiting this drive, <a href='https://drive.google.com/drive/folders/1sKtis1zU8p6t5zXFphBa6FkPIppc0ZMl?usp=sharing'> click here...</a>"
+            "You can view curriculum checklist for Bachelor of Science in Biology by visiting this drive, <a href='https://drive.google.com/drive/folders/1sKtis1zU8p6t5zXFphBa6FkPIppc0ZMl?usp=sharing'> click here...</a>"
          ],
          "context_filter": "checklist"
       },
@@ -553,15 +607,89 @@
             "Industrial subjects",
             "Course description in bs industrial engineering",
             "Available subects in industrial engineering",
-            "bsie",
-            "Industrial eng"
+            "bsie subject",
+            "Industrial eng checklist"
          ],
          "responses":[
-            "You can view curiculum checklist for Banchelor of Science in Industrial Engineering by visiting this drive, <a href='https://drive.google.com/drive/folders/12s1u2AqS8uyh7ujf-uSUE7QhgOaMd4Yu?usp=sharing'> click here...</a>"
+            "You can view curriculum checklist for Bachelor of Science in Industrial Engineering by visiting this drive, <a href='https://drive.google.com/drive/folders/12s1u2AqS8uyh7ujf-uSUE7QhgOaMd4Yu?usp=sharing'> click here...</a>"
          ],
          "context_filter": "checklist"
       },
-
+      {
+         "tag":"ChecklistBSEE",
+         "patterns":[
+            "Subjects to take in Electronics Engineering",
+            "Electronics subjects",
+            "Course description in bs Electronics engineering",
+            "Available subects in Electronics engineering",
+            "bsee subject",
+            "Electronics eng checklist"
+         ],
+         "responses":[
+            "You can view curriculum checklist for Bachelor of Science in Electronics Engineering by visiting this drive, <a href='https://drive.google.com/drive/folders/1rCZfc1hj64M9ypjQ_Iq5GkkJXCNHfCaa?usp=sharing'> click here...</a>"
+         ],
+         "context_filter": "checklist"
+      },
+      {
+         "tag":"ChecklistBSMarketing",
+         "patterns":[
+            "Subjects to take in Marketing",
+            "Marketing subjects",
+            "Course description in bs Marketing",
+            "Available subects in Marketing",
+            "bs marketing subject",
+            "Marketing checklist"
+         ],
+         "responses":[
+            "You can view curriculum checklist for Bachelor of Science in Marketing by visiting this drive, <a href='https://drive.google.com/drive/folders/1BuXPVJFdibWoE2qstDt6ilHPsUBCf8yf?usp=sharing'> click here...</a>"
+         ],
+         "context_filter": "checklist"
+      },
+      {
+         "tag":"ChecklistBSMedTech",
+         "patterns":[
+            "Subjects to take in Med Tech",
+            "Medical Technology subjects",
+            "Course description in bs Med Tech",
+            "Available subects in Medical Technology",
+            "bs MedTech subject",
+            "MedTech checklist"
+         ],
+         "responses":[
+            "You can view curriculum checklist for Bachelor of Science in Medical Technology by visiting this drive, <a href='https://drive.google.com/drive/folders/1sb39gQYHwLrXGSiMPgYGNStC2mlio_s7?usp=sharing'> click here...</a>"
+         ],
+         "context_filter": "checklist"
+      },
+      {
+         "tag":"ChecklistBSNursing",
+         "patterns":[
+            "Subjects to take in Nursing",
+            "Nursing subjects",
+            "Course description in bs Nursing",
+            "Available subects in Nursing",
+            "bs Nursing subject",
+            "Nursing checklist"
+         ],
+         "responses":[
+            "You can view curriculum checklist for Bachelor of Science in Nursing by visiting this drive, <a href='https://drive.google.com/drive/folders/1E-vAcXAXLbTIgqTFzDQ-dunVSTRCWp2K?usp=sharing'> click here...</a>"
+         ],
+         "context_filter": "checklist"
+      },
+      {
+         "tag":"ChecklistBSPsychology",
+         "patterns":[
+            "Subjects to take in Psychology",
+            "Psychology subjects",
+            "Course description in bs Psychology",
+            "Available subects in Psychology",
+            "bs Psychology subject",
+            "Psychology checklist"
+         ],
+         "responses":[
+            "You can view curriculum checklist for Bachelor of Science in Psychology by visiting this drive, <a href='https://drive.google.com/drive/folders/17M_7K6j-toDVS8YbQtWYohANRiA5MHeX?usp=sharing'> click here...</a>"
+         ],
+         "context_filter": "checklist"
+      },
       {
          "tag": "course",
          "patterns": [
@@ -580,6 +708,9 @@
             "What do",
             "Do you",
             "What does",
+            "HAHAHAHAH",
+            "asdfjwqerouib",
+            "qwerty",
             "The",
              " "
          ],
