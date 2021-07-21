@@ -44,8 +44,7 @@
             "Finance Office email address",
             "Email address Finance Office",
             "Finance email",
-            "Email Finance",
-            
+            "Email Finance"
          ],
          "responses":[
             "The email address of the Finance Office is<br><a>finance.ar@slu.edu.ph</a> <br> For online payments please email your reciept on this email: <br> <a>claims.payment.tuition@slu.edu.ph</a> <br> <a>finance.ar@slu.edu.ph</a><br> <a>claimspayment@slu.edu.ph</a>"
@@ -140,7 +139,7 @@
             "Tuition SNS",
             "NATSCI Tuition fee",
             "Tuition fee for NATSCI",
-            "Medtech student tuition fee",
+            "Medtech student tuition fee"
             
          ],
          "responses":[
@@ -209,7 +208,7 @@
             "STELA tuition",
             "Tuition STELA",
             "Education Tuition fee",
-            "Pschology Tuition fee",
+            "Pschology Tuition fee"
             
          ],
          "responses":[
@@ -553,6 +552,8 @@
             "Do you",
             "What does",
             "The",
+            "no",
+            "yes",
             " "
          ],
          "responses":[
