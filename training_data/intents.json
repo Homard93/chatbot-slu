@@ -42,7 +42,10 @@
          "patterns":[
             "What is the email address of Finance Office?",
             "Finance Office email address",
-            "Email address Finance Office"
+            "Email address Finance Office",
+            "Finance email",
+            "Email Finance",
+            
          ],
          "responses":[
             "The email address of the Finance Office is<br><a>finance.ar@slu.edu.ph</a> <br> For online payments please email your reciept on this email: <br> <a>claims.payment.tuition@slu.edu.ph</a> <br> <a>finance.ar@slu.edu.ph</a><br> <a>claimspayment@slu.edu.ph</a>"
@@ -52,7 +55,10 @@
          "tag":"landline",
          "patterns":[
             "What are the SLU landline numbers?",
-            "SLU landline numbers"
+            "SLU landline numbers",
+            "Contact SLU",
+            "SLU numbers",
+            "SLU hotline"
          ],
          "responses":[
             "+(63) (74) 442 3043; 442 2793; 442 2193; 443 2001; 444 8246 to 48 (loc. 279)"
@@ -75,7 +81,8 @@
          "patterns":[
             "How much is the tuition fee",
             "Tuition",
-            "tuition fee"
+            "tuition fee",
+            "SLU tuition"
          ],
          "responses":[
             "What school specifically are you pertaining to? <br> Schools in SLU: <br> School of Nursing (SON) <br> School of Engineering and Architecture (SEA) <br> School of Natural Sciences (SNS) <br> School of Medicine (SOM) <br> School of Accountancy, Management, Computing and Information Studies (SAMCIS) <br> School of Teacher Education and Liberal Arts (STELA) <br> School of Law (SOL)"
@@ -89,7 +96,8 @@
             "SON tuition",
             "Tuition SON",
             "Nursing Tuition",
-            "Tuition Nursing"
+            "Tuition Nursing",
+            "Nursing Student Tuition Fee"
 
          ],
          "responses":[
@@ -110,7 +118,9 @@
             "Tuition fee for SEA",
             "What are the tuition fee for School of Engineering and Architecture",
             "SEA tuition",
-            "Tuition SEA"
+            "Tuition SEA",
+            "Enginering Tuition Fee",
+            "Tuition fee for engineering student"
 
          ],
          "responses":[
@@ -127,7 +137,11 @@
             "Tuition fee SNS",
             "what is the tuition fee for School of Natural Sciences?",
             "SNS tuition",
-            "Tuition SNS"
+            "Tuition SNS",
+            "NATSCI Tuition fee",
+            "Tuition fee for NATSCI",
+            "Medtech student tuition fee",
+            
          ],
          "responses":[
             "Bachelor of Science in Biology: ₱28,000 - ₱32,000 <br> Bachelor of Science in Medical Laboratory Science: ₱28,000 - ₱32,000 <br> Bachelor of Science in Pharmacy ₱32,000 - ₱36,000 <br> Bachelor of Science in Radiologic Technology: ₱28,000 - ₱32,000"
@@ -139,7 +153,9 @@
             "Tuition fee for SOM",
             "what is the tuition for School of Medicine?",
             "SOM tuition",
-            "Tuition SOM"
+            "Tuition SOM",
+            "Tuition fee for Medicine",
+            "Medicine Tuition"
          ],
          "responses":[
             "₱25,000 - ₱30,000"
@@ -164,7 +180,10 @@
             "Tuition fee for SAMCIS",
             "what is the tuition for School of Accountancy, Management, Computing and Information Studies?",
             "SAMCIS tuition",
-            "Tuition SAMCIS"
+            "Tuition SAMCIS",
+            "IT/CS tuition fee",
+            "Accountancy tuition fee",
+            "Management Tuition fee"
          ],
          "responses":[
             "Bachelor of Science in Accountancy: ₱29,000 - ₱33,000 <br> Bachelor of Science in Management Accounting: ₱29,000 - ₱33,000 <br> Bachelor of Science in Business Administration major in: <br> Financial Management with specialization in Business Analytics: ₱29,000 - ₱33,000 <br> Marketing Management with specialization in Business Analytics: ₱30,000 - ₱34,000 <br> Bachelor of Science in Entrepreneurship with specialization in Business Analytics: ₱29,000 - ₱33,000 <br> Bachelor of Science in Tourism Management: ₱30,000 - ₱34,000 <br> Bachelor of Science in Hospitality Management: ₱30,000 - ₱34,000 <br> Bachelor of Science in Computer Science: ₱39,000 - ₱42,000 <br> Bachelor of Science in Information Technology: ₱36,000 - ₱39,000"
@@ -188,7 +207,10 @@
             "Tuition fee for STELA",
             "What is the tuition fee for School of  of Teacher Education and Liberal Arts?",
             "STELA tuition",
-            "Tuition STELA"
+            "Tuition STELA",
+            "Education Tuition fee",
+            "Pschology Tuition fee",
+            
          ],
          "responses":[
             "Bachelor of Elementary Education: ₱28,000 - ₱32,000 <br> Bachelor of Secondary Education with areas of specialization in:<br> English: ₱24,000 - ₱28,000 <br> Mathematics: ₱24,000 - ₱28,000 <br> Science: ₱29,000 - ₱33,000 <br> Social Studies: ₱24,000 - ₱28,000 <br> Bachelor of Physical Education: ₱26,000 - ₱30,000 <br> Certificate in Teaching: ₱28,000 - ₱32,000 <br> Bachelor of Arts in Communication: ₱26,000 - ₱30,000 <br> Bachelor of Arts in Philosophy: ₱28,000 - ₱32,000 <br> Bachelor of Arts in Political Science: ₱26,000 - ₱30,000 <br> Bachelor of Science in Psychology: ₱29,000 - ₱33,000 <br> Bachelor of Science in Social Work: ₱24,000 - ₱28,000"
@@ -200,10 +222,26 @@
             "Tuition fee for SOL",
             "what is the tuition for School of Law?",
             "SOL tuition",
-            "Tuition SOL"
+            "Tuition SOL",
+            "Tuition fee for Law",
+            "Law student tuition fee"
+            
          ],
          "responses":[
             "₱25,000 - ₱30,000"
+         ]
+      },
+      {
+         "tag":"mechanicaleng",
+         "patterns":[
+            "Tuition Mechanical Engineering",
+            "what is the tuition for Mechanical Engineering?",
+            "Mechanical Engineering tuition",
+            "ME tuition fee",
+            "MecEng tuition fee"
+         ],
+         "responses":[
+            "Bachelor of Science in Mechanical Engineering: 26,000 - 30,000"
          ]
       },
       {
@@ -213,7 +251,9 @@
             "Entrance exam for new applicants",
             "Exam for incoming freshies",
             "Entrance exam for freshmen",
-            "Entrance exam"
+            "Entrance exam",
+            "SLUCEE",
+            "Freshmen exam"
          ],
          "responses":[
             "SLU College Entrance Examination For Incoming Freshmen for more information go to <a>https://www.slu.edu.ph/admissionfreshmen-application-guidelines/</a>"
@@ -488,6 +528,36 @@
          "responses":[
             "What are you looking for?"
          ]    
+      },
+      {
+         "tag":"Checklist",
+         "patterns":[
+            "Do you have a courses checklist?",
+            "Checklist",
+            "Curiculim checklist",
+            "What are the curiculum checklist?",
+            "Do you have a curiculum checklist?",
+            "What are your curiculum checklist"
+         ],
+         "responses":[
+            "What specifically curiculum checklist are you looking for?",
+            "What course are you looking for?"
+         ]
+      },
+      {
+         "tag":"default",
+         "patterns":[
+            "What is",
+            "What are",
+            "What do",
+            "Do you",
+            "What does",
+            "The",
+            " "
+         ],
+         "responses":[
+            "Sorry, I can't understand your query."
+         ]
       }
 
    ]
