@@ -384,7 +384,8 @@
          ],
          "responses":[
             "Are you currently enrolled in SLU?" 
-         ]
+         ],
+         "context_set": "payment?"
       },
       {
          "tag":"YeQuestion",
@@ -394,7 +395,8 @@
          ],
          "responses":[
             "Login to your portal then go to statement of accounts then look for dragonpay or apply for an installment using bukas" 
-         ]
+         ],
+         "context_filter": "payment?"
       },
       {
          "tag":"NoQuestion",
@@ -404,23 +406,10 @@
          ],
          "responses":[
             "You must first apply for an enrollment in SLU and pass the entrance exam. You can do this by visiting this website, https://i2.slu.edu.ph/newapplication/. Fill in the enrollment form and wait for you scheduled visit at the Main Campus, Bonificatio Street, Baguio City." 
-         ]
+         ],
+         "context_filter": "payment?"
       },
       {
-         "tag":"Checklist",
-         "patterns":[
-            "Do you have a courses checklist?",
-            "Checklist",
-            "Curiculim checklist",
-            "What are the curiculum checklist?",
-            "Do you have a curiculum checklist?",
-            "What are your curiculum checklist"
-         ],
-         "responses":[
-            "What specific curiculum checklist are you looking for?"
-         ]
-      },
-             {
          "tag":"ChecklistBSPOLSCI",
          "patterns":[
             "Subjects to take in Political Science",
@@ -542,6 +531,11 @@
             "What specifically curiculum checklist are you looking for?",
             "What course are you looking for?"
          ]
+      },
+      {
+         "tag": "course",
+         "patterns": ["What courses do you offer?", "Courses"],
+         "responses": ["We offer Engineering, Business Manangement, Information Technology"]
       },
       {
          "tag":"default",
