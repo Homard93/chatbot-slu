@@ -99,6 +99,14 @@
       {
          "tag":"SEA",
          "patterns":[
+            "How much is the tuition fee for bsarchi?",
+            "How much is the tuition fee for bsche?",
+            "How much is the tuition fee for bsce?",
+            "How much is the tuition fee for bsee?",
+            "How much is the tuition fee for bsge?",
+            "How much is the tuition fee for bsie?",
+            "How much is the tuition fee for bsme?",
+            "How much is the tuition fee for bsem?",
             "Tuition fee for SEA",
             "What are the tuition fee for School of Engineering and Architecture",
             "SEA tuition",
@@ -112,6 +120,10 @@
       {
          "tag":"SNS",
          "patterns":[
+            "How much is the tuition fee for bs bio?",
+            "How much is the tuition fee for bsmls?",
+            "How much is the tuition fee for bs pharm?",
+            "How much is the tuition fee for bs rad?",
             "Tuition fee SNS",
             "what is the tuition fee for School of Natural Sciences?",
             "SNS tuition",
@@ -136,6 +148,19 @@
       {
          "tag":"SAMCIS",
          "patterns":[
+            "How much is the tuition fee for bshm",
+            "How much is the tuition fee for bsba-em",
+            "How much is the tuition fee for bsba finman",
+            "How much is the tuition fee for bsba-hrdm",
+            "How much is the tuition fee for bs entrep",
+            "How much is the tuition fee for bs ma",
+            "How much is the tuition fee for bsba mktg",
+            "How much is the tuition fee for bs ac",
+            "How much is the tuition fee for accountancy",
+            "How much is the tuition fee for bsit",
+            "How much is the tuition fee for bscs",
+            "How much is the tuition fee for bsit",
+            "How much is the tuition fee for IT",
             "Tuition fee for SAMCIS",
             "what is the tuition for School of Accountancy, Management, Computing and Information Studies?",
             "SAMCIS tuition",
@@ -148,6 +173,18 @@
       {
          "tag":"STELA",
          "patterns":[
+            "How much is the tuition fee for beed",
+            "How much is the tuition fee for beced",
+            "How much is the tuition fee for bpe",
+            "How much is the tuition fee for bsed engl",
+            "How much is the tuition fee for bsed math",
+            "How much is the tuition fee for bsed science",
+            "How much is the tuition fee for bsed soc stud",
+            "How much is the tuition fee for ba com",
+            "How much is the tuition fee for ba philo",
+            "How much is the tuition fee for ba polit sci",
+            "How much is the tuition fee for bs pysch",
+            "How much is the tuition fee for bsswk",
             "Tuition fee for STELA",
             "What is the tuition fee for School of  of Teacher Education and Liberal Arts?",
             "STELA tuition",
@@ -170,17 +207,6 @@
          ]
       },
       {
-         "tag":"mechanicaleng",
-         "patterns":[
-            "Tuition Mechanical Engineering",
-            "what is the tuition for Mechanical Engineering?",
-            "Mechanical Engineering tuition"
-         ],
-         "responses":[
-            "Bachelor of Science in Mechanical Engineering: 26,000 - 30,000"
-         ]
-      },
-      {
          "tag":"EntranceExam",
          "patterns":[
             "Is there an entrance exam for new applicants in SLU?",
@@ -196,11 +222,20 @@
       {
           "tag":"RetakeEntranceExam",
          "patterns":[
-            "What if I failed to the SLU Entrance Examination, could I retake it?",
-            "Retake of Entrance Exam"
+            "What if I failed the SLU Entrance Examination, could I retake it?"
          ],
          "responses":[
-            "Unfortunately, No"
+            "Unfortunately, No",
+            "No, you cannot retake the SLU Entrance Examination"
+         ]
+      },
+       {
+          "tag":"RetakeEntranceExamtwo",
+         "patterns":[
+            "What if I failed the SLU Entrance Examination?"
+         ],
+         "responses":[
+            "Unfortunately, you cannot retake the SLU Entrance Examination"
          ]
       },
        {
@@ -217,7 +252,7 @@
        {
           "tag":"SLUScholarship",
          "patterns":[
-            "Are there available scholarship offered by SLU",
+            "Are there available scholarships offered by SLU",
             "Scholarship offered by SLU",
             "Procedure in applying scholarship",
             "Scholarship"
@@ -229,7 +264,7 @@
       {
           "tag":"EnrollmentSOM",
          "patterns":[
-            "What are the process for School of Medicine Application?",
+            "What are the processes for School of Medicine Application?",
             "What is enrollment Process for School of Medicine?",
             "Enrollment process for SOM",
             "SOM enrollment"
@@ -293,7 +328,7 @@
        {
           "tag":"DeanOffice",
          "patterns":[
-            "How can I contact Dean's Office",
+            "How can I contact the Dean's Office",
             "What are the Email address of the Dean's Office"
          ],
          "responses":[
@@ -333,12 +368,85 @@
          ]
       },
       {
+         "tag":"Checklist",
+         "patterns":[
+            "Do you have a courses checklist?",
+            "Checklist",
+            "Curiculim checklist",
+            "What are the curiculum checklist?",
+            "Do you have a curiculum checklist?",
+            "What are your curiculum checklist"
+         ],
+         "responses":[
+            "What specific curiculum checklist are you looking for?"
+         ]
+      },
+             {
+         "tag":"ChecklistBSPOLSCI",
+         "patterns":[
+            "Subjects to take in Political Science",
+            "Political science subjects",
+            "Course description in bs political science",
+            "Available subects in political science",
+            "BSPOLSCI",
+            "Pol sci"
+         ],
+         "responses":[
+            "You can view curiculum checklist for Banchelor of Science in Polictical Science by visiting this drive, <a href='https://drive.google.com/drive/folders/1ltItNmh__b2R2yuQAk5WwXAE2MHPJ9xK?usp=sharing'> click here...</a>"
+         ]
+      },
+             {
+         "tag":"ChecklistBSARCH",
+         "patterns":[
+            "Subjects to take in Architecture",
+            "Architecture subjects",
+            "Course description in bs architecture",
+            "Available subects in architecture",
+            "bs arch",
+            "archi"
+         ],
+         "responses":[
+            "You can view curiculum checklist for Banchelor of Science in Architecture by visiting this drive, <a href='https://drive.google.com/drive/folders/1PrTIqlwrPrW8jTRqys_7pAMCxikeiCIT?usp=sharing'> click here...</a>"
+         ]
+      },
+             {
+         "tag":"ChecklistBSPHARM",
+         "patterns":[
+            "Subjects to take in Pharmacy",
+            "pharmacy subjects",
+            "Course description in bs pharmacy",
+            "Available subects in pharmacy",
+            "bs parhm",
+            "pharm"
+         ],
+         "responses":[
+            "You can view curiculum checklist for Banchelor of Science in Pharmacy by visiting this drive, <a href='https://drive.google.com/drive/folders/1V5JxhuqizsMKC8LYxvjtOCed2K-Z0RJb?usp=sharing'> click here...</a>"
+         ]
+      },
+             {
+         "tag":"ChecklistBSIT",
+         "patterns":[
+            "Subjects to take in IT",
+            "IT subjects",
+            "Course description in bs information technology",
+            "Available subects in IT",
+            "BSIT",
+            "IT",
+            "Information Technology"
+         ],
+         "responses":[
+            "You can view curiculum checklist for Banchelor of Science in Information Technology by visiting this drive, <a href='https://drive.google.com/drive/folders/136szNhGYT7ukdx5iqTtShvb-B3g0IbEp?usp=sharing'> click here...</a>"
+         ]
+      },
+             {
          "tag":"ChecklistBSME",
          "patterns":[
             "Subjects to take in Mechanical Engineering",
             "Mechanical Engineer subjects",
             "Course description in Mechanical engineering",
-            "Available subects in mechanical engineering"
+            "Available subects in mechanical engineering",
+            "bsme",
+            "Mech eng"
          ],
          "responses":[
             "You can view curiculum checklist for Banchelor of Science in Mechanical Engineering by visiting this drive, <a href='https://drive.google.com/drive/folders/1Ero3GKvdfh5K20hK06vS3NLcXFpPWElJ?usp=sharing'> click here...</a>"
@@ -350,7 +458,9 @@
             "Subjects to take in Biology",
             "Biology subjects",
             "Course description in bs biology",
-            "Available subects in biology"
+            "Available subects in biology",
+            "bs bio",
+            "Bio"
          ],
          "responses":[
             "You can view curiculum checklist for Banchelor of Science in Biology by visiting this drive, <a href='https://drive.google.com/drive/folders/1sKtis1zU8p6t5zXFphBa6FkPIppc0ZMl?usp=sharing'> click here...</a>"
@@ -362,87 +472,23 @@
             "Subjects to take in Industrial Engineering",
             "Industrial subjects",
             "Course description in bs industrial engineering",
-            "Available subects in industrial engineering"
+            "Available subects in industrial engineering",
+            "bsie",
+            "Industrial eng"
          ],
          "responses":[
             "You can view curiculum checklist for Banchelor of Science in Industrial Engineering by visiting this drive, <a href='https://drive.google.com/drive/folders/12s1u2AqS8uyh7ujf-uSUE7QhgOaMd4Yu?usp=sharing'> click here...</a>"
          ]
       },
-      {
-         "tag":"ChecklistBSIT",
+       {
+         "tag":"LookingFor,",
          "patterns":[
-            "Subjects to take in IT",
-            "IT subjects",
-            "Course description in bs information technology",
-            "Available subects in IT"
+            " "  
          ],
          "responses":[
-            "You can view curiculum checklist for Banchelor of Science in Information Technology by visiting this drive, <a href='https://drive.google.com/drive/folders/136szNhGYT7ukdx5iqTtShvb-B3g0IbEp?usp=sharing'> click here...</a>"
-         ]
-      },
-      {
-         "tag":"ChecklistBSPHARM",
-         "patterns":[
-            "Subjects to take in Pharmacy",
-            "pharmacy subjects",
-            "Course description in bs pharmacy",
-            "Available subects in pharmacy",
-            "Pharmacy",
-            "PHARM",
-            "BSPHARM"
-         ],
-         "responses":[
-            "You can view curiculum checklist for Banchelor of Science in Pharmacy by visiting this drive, <a href='https://drive.google.com/drive/folders/1V5JxhuqizsMKC8LYxvjtOCed2K-Z0RJb?usp=sharing'> click here...</a>"
-         ]
-      },
-      {
-         "tag":"ChecklistBSARCH",
-         "patterns":[
-            "Subjects to take in Architecture",
-            "Architecture subjects",
-            "Course description in bs architecture",
-            "Available subects in architecture",
-            "Architecture",
-            "ARCH",
-            "BSARCH",
-            "Architect"
-         ],
-         "responses":[
-            "You can view curiculum checklist for Banchelor of Science in Architecture by visiting this drive, <a href='https://drive.google.com/drive/folders/1PrTIqlwrPrW8jTRqys_7pAMCxikeiCIT?usp=sharing'> click here...</a>"
-         ]
-      },
-      {
-         "tag":"ChecklistBSPOLSCI",
-         "patterns":[
-            "Subjects to take in Political Science",
-            "Political science subjects",
-            "Course description in bs political science",
-            "Available subects in political science",
-            "POL SCI",
-            "POLSCI",
-            "Political Science",
-            "BSPOLSCI"
-         ],
-         "responses":[
-            "You can view curiculum checklist for Banchelor of Science in Polictical Science by visiting this drive, <a href='https://drive.google.com/drive/folders/1ltItNmh__b2R2yuQAk5WwXAE2MHPJ9xK?usp=sharing'> click here...</a>"
-         ]
-      },
-      {
-         "tag":"Checklist",
-         "patterns":[
-            "Do you have a courses checklist?",
-            "Checklist",
-            "Curiculim checklist",
-            "What are the curiculum checklist?",
-            "Do you have a curiculum checklist?",
-            "What are your curiculum checklist"
-         ],
-         "responses":[
-            "What specifically curiculum checklist are you looking for?",
-            "What course are you looking for?"
+            "What are you looking for?"
          ]    
       }
-
 
    ]
 }
