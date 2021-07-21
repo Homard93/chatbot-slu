@@ -70,7 +70,7 @@
          "tag":"funny",
          "patterns":[
             "Tell me a joke",
-            "Tell me something funny",
+            "Tell me something funny", 
             "Do you know a joke"
          ],
          "responses":[
