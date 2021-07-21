@@ -556,7 +556,8 @@
             " "
          ],
          "responses":[
-            "Sorry, I can't understand your query."
+            "Sorry, I can't understand your query.",
+            "What are you looking for?"
          ]
       }
 
